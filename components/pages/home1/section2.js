@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import SlidingText from '@/components/slidingHub/slidingText'
+import SlidingText from '../../slidingHub/SlidingText'
 export default function Section2() {
 	return (
 		<>

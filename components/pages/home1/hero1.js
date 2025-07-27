@@ -4,7 +4,8 @@ import Link from 'next/link'
 import { useState } from 'react'
 import ModalVideo from 'react-modal-video'
 import { TypeAnimation } from "react-type-animation"
-import SlidingText from '@/components/slidingHub/slidingText'
+import SlidingText from '../../slidingHub/SlidingText'
+
 export default function Hero1() {
 	const [isOpen, setOpen] = useState(false)
 	return (
