@@ -1,0 +1,209 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_saylo";
+    src: url("./flaticon_saylo.woff2?7961919b0c3d939467c4923493613ab4") format("woff2"),
+url("./flaticon_saylo.woff?7961919b0c3d939467c4923493613ab4") format("woff"),
+url("./flaticon_saylo.eot?7961919b0c3d939467c4923493613ab4#iefix") format("embedded-opentype"),
+url("./flaticon_saylo.ttf?7961919b0c3d939467c4923493613ab4") format("truetype"),
+url("./flaticon_saylo.svg?7961919b0c3d939467c4923493613ab4#flaticon_saylo") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_saylo !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-chat:before {
+    content: "\f101";
+}
+.flaticon-tag:before {
+    content: "\f102";
+}
+.flaticon-phone-call:before {
+    content: "\f103";
+}
+.flaticon-open-mail:before {
+    content: "\f104";
+}
+.flaticon-clock:before {
+    content: "\f105";
+}
+.flaticon-target:before {
+    content: "\f106";
+}
+.flaticon-rocket:before {
+    content: "\f107";
+}
+.flaticon-megaphone:before {
+    content: "\f108";
+}
+.flaticon-data-management:before {
+    content: "\f109";
+}
+.flaticon-human-resources:before {
+    content: "\f10a";
+}
+.flaticon-target-1:before {
+    content: "\f10b";
+}
+.flaticon-return-of-investment:before {
+    content: "\f10c";
+}
+.flaticon-check-mark:before {
+    content: "\f10d";
+}
+.flaticon-left:before {
+    content: "\f10e";
+}
+.flaticon-placeholder:before {
+    content: "\f10f";
+}
+.flaticon-rocket-1:before {
+    content: "\f110";
+}
+.flaticon-efficiency:before {
+    content: "\f111";
+}
+.flaticon-pie-chart:before {
+    content: "\f112";
+}
+.flaticon-problem-solving:before {
+    content: "\f113";
+}
+.flaticon-persuasive:before {
+    content: "\f114";
+}
+.flaticon-statistics:before {
+    content: "\f115";
+}
+.flaticon-interactivity:before {
+    content: "\f116";
+}
+.flaticon-compensation:before {
+    content: "\f117";
+}
+.flaticon-market-analysis:before {
+    content: "\f118";
+}
+.flaticon-waves:before {
+    content: "\f119";
+}
+.flaticon-viral-marketing:before {
+    content: "\f11a";
+}
+.flaticon-awareness:before {
+    content: "\f11b";
+}
+.flaticon-market:before {
+    content: "\f11c";
+}
+.flaticon-goal:before {
+    content: "\f11d";
+}
+.flaticon-speed:before {
+    content: "\f11e";
+}
+.flaticon-operation:before {
+    content: "\f11f";
+}
+.flaticon-discovery:before {
+    content: "\f120";
+}
+.flaticon-new-product:before {
+    content: "\f121";
+}
+.flaticon-execution:before {
+    content: "\f122";
+}
+.flaticon-technical-service:before {
+    content: "\f123";
+}
+.flaticon-customer-support:before {
+    content: "\f124";
+}
+.flaticon-target-2:before {
+    content: "\f125";
+}
+.flaticon-workflow:before {
+    content: "\f126";
+}
+.flaticon-team:before {
+    content: "\f127";
+}
+.flaticon-digital:before {
+    content: "\f128";
+}
+.flaticon-solution:before {
+    content: "\f129";
+}
+.flaticon-location:before {
+    content: "\f12a";
+}
+.flaticon-graphic-design:before {
+    content: "\f12b";
+}
+.flaticon-cooperation:before {
+    content: "\f12c";
+}
+.flaticon-healthcare:before {
+    content: "\f12d";
+}
+.flaticon-pc:before {
+    content: "\f12e";
+}
+.flaticon-insurance:before {
+    content: "\f12f";
+}
+.flaticon-video-file:before {
+    content: "\f130";
+}
+.flaticon-coding:before {
+    content: "\f131";
+}
+.flaticon-art:before {
+    content: "\f132";
+}
+.flaticon-medal:before {
+    content: "\f133";
+}
+.flaticon-trophy:before {
+    content: "\f134";
+}
+.flaticon-opportunity:before {
+    content: "\f135";
+}
+.flaticon-market-1:before {
+    content: "\f136";
+}
+.flaticon-dna:before {
+    content: "\f137";
+}
+.flaticon-integration:before {
+    content: "\f138";
+}
+.flaticon-excellent:before {
+    content: "\f139";
+}
+.flaticon-teamwork:before {
+    content: "\f13a";
+}
+.flaticon-integrity:before {
+    content: "\f13b";
+}
+

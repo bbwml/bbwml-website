@@ -1,0 +1,200 @@
+.slider-saylo {
+    p {
+        font-size: 220px;
+        font-weight: 800;
+        line-height: 300.52px;
+        white-space: nowrap;
+        color: var(--Bg-5);
+    }
+    display: flex;
+    animation: scroll 10s linear infinite;
+    transition: animation-duration 0.3s;
+    .marquee-item {
+        padding-left: 18px;
+        padding-right: 18px;
+        display: flex;
+        align-items: center;
+    }
+    &.style-2 {
+        p {
+            color: var(--Border-4);
+        }
+    }
+    &.mt-50 {
+        margin-top: 50px;
+    }
+    &.mt-65 {
+        margin-top: 65px;
+    }
+    &.mb-50 {
+        margin-bottom: 50px;
+    }
+}
+
+.tf-pagination {
+    .swiper-pagination-bullet {
+        background: var(--Main-black);
+        opacity: 1;
+        width: 7px;
+        height: 7px;
+        position: relative;
+        margin: 0px 11px !important;
+        @include tf-transition-1;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid transparent;
+            @include tf-transition-1;
+        }
+        &.swiper-pagination-bullet-active {
+            &::after {
+                width: 21px;
+                height: 21px;
+                border-color: var(--Main-black);
+            }
+        }
+    }
+    &.style-2 {
+        .swiper-pagination-bullet {
+            background: var(--Border-2);
+            &.swiper-pagination-bullet-active {
+                background: var(--Main-black);
+            }
+        }
+    }
+    &.style-3 {
+        .swiper-pagination-bullet {
+            background: var(--White);
+            &.swiper-pagination-bullet-active {
+                &::after {
+                    border-color: var(--White);
+                }
+            }
+        }
+    }
+    &.style-4 {
+        .swiper-pagination-bullet {
+            background: var(--Bg-3);
+            &.swiper-pagination-bullet-active {
+                background: var(--White);
+                &::after {
+                    border-color: transparent;
+                }
+            }
+        }
+    }
+    &.style-5 {
+        .swiper-pagination-bullet {
+            background: #16383833;
+
+            &.swiper-pagination-bullet-active {
+                background: var(--Main-green);
+                &::after {
+                    border-color: transparent;
+                }
+            }
+        }
+    }
+}
+.slider-project {
+    position: relative;
+    padding-bottom: 67px;
+    .tf-pagination {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 21px;
+    }
+}
+.slider-team {
+    position: relative;
+    .tf-overlay {
+        top: unset;
+        z-index: 0;
+        height: 210px;
+        background-color: var(--Main-black);
+    }
+}
+.slider-testimonial-thumb {
+    .image {
+        max-width: 270px;
+        width: 100%;
+    }
+}
+.slider-home-2 {
+    position: relative;
+    .tf-pagination {
+        right: 13%;
+        top: 50%;
+        transform: translateY(-50%);
+        flex-direction: column;
+        gap: 20px;
+        @include d-flex();
+    }
+    .swiper-slide-active {
+        .access-trainsition {
+            clip-path: inset(0 0 0 0);
+        }
+        .fade-item-2 {
+            transform: translateY(0);
+            @include visible;
+            transition-delay: 0.2s;
+        }
+        .fade-item-3 {
+            transform: translateY(0);
+            @include visible;
+            transition-delay: 0.4s;
+        }
+    }
+}
+.slider-home-2 {
+    .swiper-slide {
+        transition: transform 0.8s ease-in, opacity 0.8s ease-in;
+        transform-origin: center;
+        opacity: 0;
+    }
+    .swiper-slide-active {
+        z-index: 10;
+        opacity: 1;
+        transform: scale(1);
+    }
+    .swiper-slide-prev,
+    .swiper-slide-next {
+        opacity: 0.5;
+        transform: scale(0.9);
+    }
+    .swiper-slide-prev ~ .swiper-slide,
+    .swiper-slide-next ~ .swiper-slide {
+        opacity: 0.2;
+        transform: scale(0.8);
+    }
+}
+.slide-home-2 {
+    overflow: hidden;
+}
+.slider-feedback-2 {
+    .direc-group {
+        @include flex(center, center);
+        gap: 30px;
+        margin-top: 48px;
+    }
+    .tf-pagination {
+        position: relative;
+    }
+}
+.service-pagination {
+    @include hidden;
+}
+.slider-testimonial-2 {
+    .wg-testimonial {
+        .bot {
+            display: unset;
+        }
+    }
+}

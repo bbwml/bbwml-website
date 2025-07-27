@@ -1,0 +1,104 @@
+.wg-tabs {
+    &.style-2 {
+        .menu-tab {
+            margin-bottom: 50px;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            border: unset;
+            box-shadow: unset;
+            gap: 19px;
+            a {
+                padding: 4px 12px 3px 14px;
+                border-radius: 5px;
+                border: 1px solid var(--White);
+                font-weight: 600;
+                font-size: 18px;
+                &::after {
+                    content: none;
+                }
+                &:hover {
+                    color: var(--Bg-2);
+                    box-shadow: 10px 4px 30px 0px #b2b2b233;
+                    border-color: var(--Border-8);
+                }
+            }
+            .item {
+                &.active {
+                    a {
+                        color: var(--Bg-2);
+                        box-shadow: 10px 4px 30px 0px #b2b2b233;
+                        border-color: var(--Border-8);
+                    }
+                }
+            }
+        }
+    }
+}
+.menu-tab {
+    @include d-flex();
+    gap: 42px;
+    white-space: nowrap;
+    box-shadow: 10px 4px 60px 0px #b6b6b640;
+    border: 1px solid var(--Border-5);
+    padding: 0px 33px;
+    .item {
+        @include transition3;
+        &.active {
+            a {
+                color: var(--Main-green);
+                &::after {
+                    width: 100%;
+                }
+            }
+            span {
+                &::after {
+                    @include visible;
+                }
+            }
+        }
+    }
+    a {
+        position: relative;
+        display: block;
+        padding: 24px 33px 25px 30px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        color: var(--Text);
+        @include transition3;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            left: auto;
+            right: 0;
+            height: 1px;
+            width: 0;
+            background-color: var(--Main-green);
+            @include transition3;
+        }
+        &:hover {
+            color: var(--Main-green);
+            &::after {
+                left: 0;
+                right: auto;
+                width: 100%;
+            }
+            
+        }
+    }
+}
+.widget-content-tab {
+    .widget-content-inner {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(100px);
+        &.active {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+}

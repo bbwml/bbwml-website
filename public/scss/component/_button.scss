@@ -1,0 +1,521 @@
+button {
+    transition: all 0.2s ease-in;
+}
+
+.tf-btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    font-family: $font-main2;
+    color: var(--Main-black);
+    background-color: var(--Main-yellow);
+    border-radius: 7px;
+    @include flex(center, center);
+    padding: 15px 31px 15px 30px;
+    gap: 7px;
+    width: max-content;
+    position: relative;
+    z-index: 1;
+    transition: all 0.2s ease-in;
+    overflow: hidden;
+    &.small {
+        padding: 12px 21px 12px 20px;
+        font-size: 14px;
+        line-height: 19px;
+        &.type-2 {
+            padding: 11px 20px 11px 19px;
+        }
+    }
+    &.style-2 {
+        background-color: transparent;
+        border: 1px solid var(--Border);
+        color: var(--White);
+
+        i {
+            color: var(--White);
+        }
+    }
+
+    &.style-3 {
+        background-color: var(--Main-black);
+        color: var(--White);
+    }
+
+    &.style-4 {
+        border: 1px solid var(--Main-black);
+        background-color: var(--White);
+        color: var(--Main-black);
+        &::before {
+            content: none;
+        }
+        &:hover {
+            border: 1px solid var(--Main-yellow);
+            background-color: var(--Main-yellow);
+        }
+    }
+
+    &.style-5 {
+        background-color: var(--White);
+        color: var(--Main-black);
+        &::before {
+            content: none;
+        }
+    }
+
+    &.style-6 {
+        background-color: var(--Main-green);
+        color: var(--White);
+    }
+
+    &.style-7 {
+        background-color: var(--Main-golden);
+        color: var(--White);
+    }
+    &.style-8 {
+        background-color: transparent;
+        border: 1px solid var(--Border-2);
+        color: var(--Text);
+        &::before {
+            content: none;
+        }
+        &:hover {
+            background-color: var(--Main-yellow);
+            border: 1px solid var(--Main-yellow);
+            color: var(--Main-black);
+        }
+    }
+    &.style-9 {
+        color: var(--Bg-2);
+        border: 1px solid var(--Border-4);
+        background-color: var(--Bg-4);
+        &::before {
+            content: none;
+        }
+        &:hover {
+            color: var(--White);
+            border: 1px solid var(--Bg-2);
+            background-color: var(--Bg-2);
+        }
+    }
+    &.style-10 {
+        color: var(--White);
+        border: 1px solid var(--Border);
+        background-color: var(--Bg);
+    }
+    &.style-11 {
+        i {
+            @include tf-transition-1;
+            color: var(--Bg-2);
+        }
+        &:hover {
+            background-color: var(--Main-blue);
+            i {
+                color: var(--White);
+            }
+        }
+    }
+    &.style-12 {
+        background-color: var(--Main-blue);
+        i {
+            color: var(--White);
+        }
+        &:hover {
+            background-color: var(--Main-yellow);
+        }
+    }
+    &.style-13 {
+        background-color: var(--Main-yellow-2);
+        color: var(--Main-green);
+    }
+    &.style-14 {
+        background-color: var(--White);
+        color: var(--Bg-2);
+        border: 1px solid var(--Border-2);
+        &::before {
+            content: none;
+        }
+        &:hover {
+            background-color: var(--Bg-2);
+            color: var(--White);
+            border: 1px solid var(--Bg-2);
+        }
+    }
+    &.style-15 {
+        background-color: var(--Main-blue);
+        color: var(--White);
+        &::after {
+            background-color: var(--Bg-2);
+        }
+        &:hover {
+            &::after {
+                background-color: var(--Bg-2);
+            }
+        }
+        &.type-2 {
+            &:hover {
+                &::after {
+                    background-color: var(--Main-golden);
+                }
+            }
+        }
+    }
+    &::before {
+        position: absolute;
+        top: 0;
+        left: -75%;
+        z-index: 2;
+        display: block;
+        content: "";
+        width: 50%;
+        height: 100%;
+        background: -webkit-linear-gradient(
+            left,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.3) 100%
+        );
+        background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.3) 100%
+        );
+        -webkit-transform: skewX(-25deg);
+        transform: skewX(-25deg);
+    }
+
+    &::after {
+        content: none;
+    }
+
+    &:hover {
+        &::before {
+            -webkit-animation: shine 0.75s;
+            animation: shine 0.75s;
+        }
+        i {
+            animation: link-icon 0.3s linear;
+        }
+    }
+    &.full {
+        width: 100%;
+    }
+}
+
+.btn-slide {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    @include flex(center, center);
+    @include tf-transition-1;
+    background-color: var(--Border);
+
+    i {
+        color: var(--White);
+        font-size: 9px;
+        @include transition3;
+    }
+    &:hover {
+        background-color: var(--Main-blue);
+    }
+    &.swiper-button-disabled {
+        background-color: var(--Border);
+        pointer-events: none;
+    }
+    &.style-2 {
+        width: 55px;
+        height: 55px;
+        background-color: transparent;
+        border: 1px solid var(--Border);
+
+        &:hover {
+            background-color: var(--Main-yellow-2);
+            i {
+                color: var(--Main-black);
+            }
+        }
+        i {
+            font-size: 16px;
+            color: var(--Text-7);
+        }
+        &.swiper-button-disabled {
+            background-color: transparent;
+            border: 1px solid var(--Border);
+            i {
+                color: var(--Text-7);
+            }
+        }
+    }
+    &.style-3 {
+        border: 1px solid var(--Border-5);
+        &:hover {
+            i {
+                color: var(--White);
+            }
+        }
+        i {
+            font-size: 12px;
+            @include transition3;
+            color: var(--Text);
+        }
+        &.swiper-button-disabled {
+            border: 1px solid var(--Border-5);
+            i {
+                color: var(--Text);
+            }
+        }
+    }
+    &.style-4 {
+        width: 55px;
+        height: 55px;
+        background-color: var(--White);
+
+        &:hover {
+            background-color: var(--Main-yellow);
+        }
+        i {
+            font-size: 16px;
+            color: var(--Main-black);
+        }
+        &.swiper-button-disabled {
+            background-color: var(--White);
+        }
+    }
+}
+.tf-btn-readmore {
+    color: var(--Main-black);
+    font-weight: 700;
+    position: relative;
+    @include transition3;
+    @include flex(center, center);
+    gap: 7px;
+    width: max-content;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: calc(0% - 12px);
+        height: 1px;
+        background-color: var(--Text-2);
+        @include transition3;
+    }
+    &:hover {
+        color: var(--Text-2);
+        &::after {
+            width: calc(100% - 13px);
+        }
+    }
+    &.style-2 {
+        color: var(--Main-yellow-2);
+        &:hover {
+            color: var(--White);
+            &::after {
+                background-color: var(--White);
+            }
+        }
+    }
+    &.style-3 {
+        color: var(--Text);
+        &:hover {
+            color: var(--Main-black);
+        }
+    }
+    &.style-4 {
+        color: var(--White);
+        &::after {
+            background-color: var(--White);
+        }
+        &:hover {
+            color: var(--Main-yellow);
+            &::after {
+                background-color: var(--Main-yellow);
+            }
+        }
+    }
+}
+.btn-view {
+    width: 40px;
+    height: 40px;
+    @include flex(center, center);
+    border-radius: 50%;
+    &.has-text {
+        gap: 8px;
+        border: 1px solid var(--Border-5);
+        color: var(--Main-black);
+        @include transition3;
+        padding: 13px 15px;
+        overflow: hidden;
+
+        .plus {
+            font-size: 22px;
+            font-weight: 900;
+            line-height: 22px;
+            transform: translateX(44px);
+            @include transition3;
+            @include visible;
+        }
+
+        .read {
+            font-size: 16px;
+            font-weight: 700;
+            white-space: nowrap;
+            transform: translateX(100%);
+            @include transition3;
+            @include hidden;
+        }
+
+        &:hover {
+            width: 135px;
+            border-radius: 10px;
+            background-color: var(--Main-green);
+
+            span {
+                color: var(--White);
+            }
+
+            .plus {
+                transform: translateX(0px);
+            }
+
+            .read {
+                @include visible;
+                transform: translateX(0);
+                transition-delay: 0.1s;
+            }
+        }
+        &.style-2 {
+            background-color: var(--White);
+            .plus {
+                transform: translateX(53px);
+            }
+            &:hover {
+                background-color: var(--Main-golden);
+                .plus {
+                    transform: translateX(0px);
+                }
+            }
+        }
+        &.style-3 {
+            background-color: transparent;
+            border-color: var(--White);
+            .plus {
+                color: var(--White);
+            }
+        }
+    }
+}
+.btn-download {
+    display: block;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    position: relative;
+    background-color: var(--Main-black);
+    color: var(--White);
+    height: 54px;
+    @include flex(center, flex-start);
+    padding-left: 20px;
+
+    .icon {
+        top: 7px;
+        right: 7px;
+        bottom: 7px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        border-radius: 7px;
+        @include flex(center, center);
+        @include transition3;
+        background-color: var(--Main-yellow);
+        i {
+            color: var(--Main-black);
+            font-size: 16px;
+        }
+    }
+    &.style-2 {
+        background-color: transparent;
+        border: 1px solid var(--Main-black);
+        color: var(--Main-black);
+        .icon {
+            background-color: var(--White);
+        }
+        &:hover {
+            border-color: var(--Main-yellow);
+        }
+    }
+    &:hover {
+        background-color: var(--Main-yellow);
+        .icon {
+            background-color: var(--White);
+        }
+    }
+}
+.btn-case {
+    @include d-flex();
+    align-items: center;
+    gap: 50px;
+    .image-wrap {
+        max-width: 150px;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        @include flex(center, center);
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #1b1e23a6;
+            transform: scale(0.5);
+            @include transition3;
+            @include hidden;
+        }
+    }
+    .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.3);
+        width: 50px;
+        height: 50px;
+        background-color: var(--Main-yellow);
+        z-index: 2;
+        @include tf-transition-4;
+        @include hidden;
+        transition-delay: 0.1s;
+        i {
+            color: var(--Main-black);
+            font-weight: 700;
+        }
+    }
+    .tag {
+        font-family: $font-main;
+    }
+    .name-case {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27.32px;
+    }
+    &:hover {
+        .image-wrap {
+            &::after {
+                transform: scale(1);
+                border-radius: 10px;
+                @include visible;
+            }
+        }
+        .icon {
+            transform: translate(-50%, -50%) scale(1);
+            @include visible;
+        }
+    }
+    &.next {
+        text-align: right;
+        gap: 30px;
+    }
+}

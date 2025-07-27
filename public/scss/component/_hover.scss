@@ -1,0 +1,115 @@
+.tf-hover {
+    .hover-1 {
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+            transform: scale(1.01);
+            @include tf-transition-2;
+        }
+    }
+    .hover-2 {
+        img {
+            width: 100%;
+            @include tf-transition-2;
+        }
+    }
+    .hover-5 {
+        figure {
+            max-width: 410px;
+            max-height: 450px;
+            width: 100%;
+            height: 100%;
+        }
+        img {
+            margin-left: 30px;
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            -webkit-transition: 0.3s ease-in-out;
+            transition: 0.3s ease-in-out;
+            object-fit: cover;
+            object-position: left;
+        }
+    }
+    .hover-14 {
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 0;
+            left: -75%;
+            z-index: 2;
+            display: block;
+            content: "";
+            width: 50%;
+            height: 100%;
+            background: -webkit-linear-gradient(
+                left,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.3) 100%
+            );
+            background: linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.3) 100%
+            );
+            -webkit-transform: skewX(-25deg);
+            transform: skewX(-25deg);
+        }
+    }
+
+    &:hover {
+        .hover-1 {
+            img {
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+        }
+        .hover-2 {
+            img {
+                -webkit-transform: scale(1.2) rotate(-3deg);
+                transform: scale(1.2) rotate(-3deg);
+            }
+        }
+        .hover-5 {
+            img {
+                margin-left: 0px;
+            }
+        }
+        .hover-14 {
+            &::before {
+                -webkit-animation: shine 0.75s;
+                animation: shine 0.75s;
+            }
+        }
+    }
+}
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+.tf-hover-icon {
+    .hover-icon {
+        i {
+            transform: rotateY(0);
+            @include tf-transition-5;
+        }
+    }
+    .hover-icon-2 {
+        transform: rotateY(0);
+        display: flex;
+        width: max-content;
+        @include tf-transition-5;
+    }
+    &:hover {
+        .hover-icon {
+            i {
+                transform: rotateY(180deg);
+            }
+        }
+        .hover-icon-2 {
+            transform: rotateY(180deg);
+            @include tf-transition-5;
+        }
+    }
+}
