@@ -10074,8 +10074,7 @@ a.mapboxgl-ctrl-logo {
 
 .page-title-home-1 {
   background-color: var(--Main-black);
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding: 70px;
 }
 
 .page-title-home-1 .s-sub-title {
@@ -10084,7 +10083,6 @@ a.mapboxgl-ctrl-logo {
 
 .page-title-home-1 .content {
   border-radius: 15px;
-  padding: 50px;
   background-color: #f8faff17;
   height: 100%;
 }

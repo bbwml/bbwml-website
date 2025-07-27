@@ -18,11 +18,11 @@ export default function Hero1() {
 								<div className="content">
 									<p className="s-sub-title text-dark ">
 										<i className="icon-angles-right moveLeftToRight" />
-										investment & asset management
+										B&B Wealth Management
 									</p>
 									<p className="s-title text-dark mb-50 text-fs-70">
-										Investment <br />
-										& Asset Management<br />
+										Investment
+										& <br /> Asset Management<br />
 										<span className="animationtext clip">
 											<TypeAnimation
 												sequence={[
