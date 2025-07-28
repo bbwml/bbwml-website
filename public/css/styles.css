@@ -15653,6 +15653,10 @@ a.mapboxgl-ctrl-logo {
     transform: rotate(-90deg);
   }
 
+  .page-title-home-1 {
+  	padding: 10px;
+}
+
   .s-service-3 .slider-wrap {
     flex-wrap: wrap;
     gap: 50px;
@@ -16072,12 +16076,16 @@ a.mapboxgl-ctrl-logo {
   }
 
   .s-title.text-fs-70 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  .s-sub-title {
+	font-size: 10px;
   }
 
   .page-title-home-1 .content {
-    padding: 35px;
+    padding: 10px;
   }
 
   .page-title-home-1 .s-title {
