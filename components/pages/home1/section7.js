@@ -17,13 +17,13 @@ export default function Section7() {
 					<div className="row" id="tabs">
 						<div className="col-lg-12">
 							<div className="content text-center mb-70">
-								<p className="s-sub-title mb-17 text-white justify-center">
+								<p className="s-sub-title mb-17  justify-center">
 									<i className="icon-angles-right moveLeftToRight" />
 									working process
 								</p>
-								<p className="s-title  text-white letter-space-0 text-anime-wave">
+								<p className="s-title   letter-space-0 text-anime-wave">
 									From Concept to Execution <br />
-									Our Consulting
+									Our Consulting {" "}
 									<span>Process</span>
 								</p>
 							</div>
@@ -37,7 +37,8 @@ export default function Section7() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/working-s2-1.jpg" data-src="/images/section/working-s2-1.jpg" alt="" className="lazyload tf-animate-2" />
+											src="/images/page-title/our-services.jpg" 
+											data-src="/images/section/one.jpg" alt="" className="lazyload tf-animate-2" />
 									</div>
 								</div>
 							</div>
@@ -113,7 +114,7 @@ export default function Section7() {
 								<div className="tf-accordion accordion" id="accordionExample2">
 									<div className="accordion-item">
 										<h2 className="accordion-header item-link current" data-tab="tabs-1" onClick={() => handleAccordion(1)}>
-											<button className={isAccordion == 1 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+											<button className={isAccordion == 1 ? "accordion-button text-black" : "accordion-button collapsed text-black"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
 												What is business consulting?
 											</button>
 										</h2>
@@ -128,7 +129,7 @@ export default function Section7() {
 									</div>
 									<div className="accordion-item">
 										<h2 className="accordion-header item-link" data-tab="tabs-2" onClick={() => handleAccordion(2)}>
-											<button className={isAccordion == 2 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+											<button className={isAccordion == 2 ? "accordion-button text-black" : "accordion-button collapsed text-black"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
 												How does the consulting process work?
 											</button>
 										</h2>
@@ -143,7 +144,7 @@ export default function Section7() {
 									</div>
 									<div className="accordion-item">
 										<h2 className="accordion-header item-link" data-tab="tabs-3" onClick={() => handleAccordion(3)}>
-											<button className={isAccordion == 3 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
+											<button className={isAccordion == 3 ? "accordion-button text-black" : "accordion-button collapsed text-black"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
 												What types of businesses do you work with?
 											</button>
 										</h2>
@@ -158,7 +159,7 @@ export default function Section7() {
 									</div>
 									<div className="accordion-item item-last">
 										<h2 className="accordion-header item-link" data-tab="tabs-4" onClick={() => handleAccordion(4)}>
-											<button className={isAccordion == 4 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour1" aria-expanded="false" aria-controls="collapseFour1">
+											<button className={isAccordion == 4 ? "accordion-button text-black" : "accordion-button collapsed text-black"}  type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour1" aria-expanded="false" aria-controls="collapseFour1">
 												How much do your consulting services cost?
 											</button>
 										</h2>
@@ -183,7 +184,7 @@ export default function Section7() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/working-s2-2.jpg" data-src="/images/section/working-s2-2.jpg" alt="" className="lazyload tf-animate-2" />
+											src="/images/section/one.jpg" data-src="/images/section/working-s2-2.jpg" alt="" className="lazyload tf-animate-2" />
 									</div>
 								</div>
 								<div className="image tf-hover tab-content" id="tabs-2">
@@ -193,7 +194,7 @@ export default function Section7() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/working-s2-1.jpg" data-src="/images/section/working-s2-1.jpg" alt="" className="lazyload" />
+											src="/images/section/two.jpg" data-src="/images/section/working-s2-1.jpg" alt="" className="lazyload" />
 									</div>
 								</div>
 								<div className="image tf-hover tab-content" id="tabs-3">
@@ -203,7 +204,7 @@ export default function Section7() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/working-s2-2.jpg" data-src="/images/section/working-s2-2.jpg" alt="" className="lazyload" />
+											src="/images/section/three.jpg" data-src="/images/section/working-s2-2.jpg" alt="" className="lazyload" />
 									</div>
 								</div>
 								<div className="image tf-hover tab-content" id="tabs-4">
@@ -213,7 +214,7 @@ export default function Section7() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/working-s2-1.jpg" data-src="/images/section/working-s2-1.jpg" alt="" className="lazyload" />
+											src="/images/section/four.jpg" data-src="/images/section/working-s2-1.jpg" alt="" className="lazyload" />
 									</div>
 								</div>
 							</div>

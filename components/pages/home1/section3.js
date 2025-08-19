@@ -25,7 +25,7 @@ export default function Section3() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/s-service.jpg" data-src="/images/section/s-service.jpg" alt="" className="lazyload tf-animate-2" />
+											src="/images/section/process.jpg" data-src="/images/section/s-service.jpg" alt="" className="lazyload tf-animate-2" />
 									</div>
 								</div>
 								<p className="text mb-30">
@@ -47,7 +47,7 @@ export default function Section3() {
 									</div>
 									<span className="line style-stand">
 									</span>
-									<Link href="/our-service" className="tf-btn style-3">Explore
+									<Link href="/our-service" className="tf-btn style-3 text-black">Explore
 										All
 										Services <i className="icon-chevron-right" /></Link>
 								</div>
@@ -66,7 +66,7 @@ export default function Section3() {
 									potential
 									addressing.
 								</p>
-								<Link href="/our-service" className="tf-btn-readmore style-3">
+								<Link href="/our-service" className="tf-btn-readmore style-3 text-black">
 									Read More
 									<i className="icon-chevron-right" />
 								</Link>
@@ -83,7 +83,7 @@ export default function Section3() {
 									consultants
 									provide.
 								</p>
-								<Link href="/our-service" className="tf-btn-readmore style-3">
+								<Link href="/our-service" className="tf-btn-readmore style-3 text-black">
 									Read More
 									<i className="icon-chevron-right" />
 								</Link>
@@ -100,7 +100,7 @@ export default function Section3() {
 									customer
 									engagement
 								</p>
-								<Link href="/our-service" className="tf-btn-readmore style-3">
+								<Link href="/our-service" className="tf-btn-readmore style-3 text-black">
 									Read More
 									<i className="icon-chevron-right" />
 								</Link>
@@ -117,7 +117,7 @@ export default function Section3() {
 									investment
 									strategies financial.
 								</p>
-								<Link href="/our-service" className="tf-btn-readmore style-3">
+								<Link href="/our-service" className="tf-btn-readmore style-3 text-black">
 									Read More
 									<i className="icon-chevron-right" />
 								</Link>

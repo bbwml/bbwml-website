@@ -75,7 +75,7 @@ export default function Section3() {
 										Expert Team <span> Member </span>
 									</p>
 								</div>
-								<Link href="/team-member" className="tf-btn style-3 text-anime-style-1">
+								<Link href="/team-member" className="tf-btn  text-anime-style-1">
 									Explore All Member
 									<i className="icon-chevron-right" />
 								</Link>

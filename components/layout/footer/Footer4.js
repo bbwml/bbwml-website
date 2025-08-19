@@ -72,7 +72,7 @@ export default function Footer4() {
 				<div className="footer-inner">
 					<div className="inner-top">
 						<div className="tf-container">
-							<div className="row">
+							{/* <div className="row">
 								<div className="col-lg-4">
 									<div className="flex item-center h-100">
 										<p className="title font-main-2 fw-7">
@@ -94,7 +94,7 @@ export default function Footer4() {
 										</button>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="tf-container">

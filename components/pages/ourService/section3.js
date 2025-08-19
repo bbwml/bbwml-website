@@ -30,7 +30,7 @@ export default function Section3() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/widget/card-service-5.jpg" data-src="/images/widget/card-service-5.jpg" alt="" className="lazyload" />
+											src="/images/page-title/our-services.jpg" data-src="/images/widget/card-service-5.jpg" alt="" className="lazyload" />
 									</div>
 									<div className="content">
 										<div className="icon">

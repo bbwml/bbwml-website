@@ -2,6 +2,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect } from "react"
+import { ImTarget } from "react-icons/im";
+
 export default function Section2() {
 	useEffect(() => {
 		const elements = document.querySelectorAll(
@@ -59,7 +61,7 @@ export default function Section2() {
 									<li className="wow fadeInUp" data-wow-delay="0s">
 										<div className="title">
 											<div className="icon">
-												<i className="flaticon-market" />
+												<ImTarget style={{ fontSize: "24px" }} />
 											</div>
 											<Link href="/#">
 												Company Vision &amp; Goals
@@ -83,24 +85,24 @@ export default function Section2() {
 										height="0"
 										sizes="100vw"
 										style={{ width: "100%", height: "auto" }}
-										src="/images/section/why.jpg" data-src="/images/section/why.jpg" alt="" className="lazyload tf-animate-2" />
+										src="/images/widget/card-service-6.jpg" data-src="/images/section/why.jpg" alt="" className="lazyload tf-animate-2" />
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-12">
 							<div className="content">
 								<div className="content-left">
-									<p className="s-sub-title text-white">
+									<p className="s-sub-title ">
 										<i className="icon-angles-right moveLeftToRight" />
 										Why choose us
 									</p>
-									<p className="s-title text-white mb-30 text-anime-wave">
+									<p className="s-title  mb-30 text-anime-wave">
 										Professional Skills and
 										<span>
 											Experience
 										</span>
 									</p>
-									<p className="text text-white">
+									<p className="text ">
 										Our commitment to integrity, collaboration, and impact-driven
 										aim to inspire and shape the future of business growth
 									</p>
@@ -108,10 +110,10 @@ export default function Section2() {
 								<div className="content-right">
 									<div className="wg-skill mb-40 ">
 										<div className="name">
-											<p>
+											<p className='text-black'>
 												Business Consulting
 											</p>
-											<p className="percent">
+											<p className="percent text-black">
 												89%
 											</p>
 										</div>
@@ -121,10 +123,10 @@ export default function Section2() {
 									</div>
 									<div className="wg-skill mb-40 ">
 										<div className="name">
-											<p>
+											<p className='text-black'>
 												Marketing Consulting
 											</p>
-											<p className="percent">
+											<p className="percent text-black">
 												73%
 											</p>
 										</div>
@@ -134,10 +136,10 @@ export default function Section2() {
 									</div>
 									<div className="wg-skill ">
 										<div className="name">
-											<p>
+											<p className='text-black'>
 												Financial Consulting
 											</p>
-											<p className="percent">
+											<p className="percent text-black">
 												80%
 											</p>
 										</div>

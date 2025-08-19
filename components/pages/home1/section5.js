@@ -17,7 +17,8 @@ export default function Section5() {
 										width="0"
 										height="0"
 										sizes="100vw"
-										style={{ width: "100%", height: "auto" }} src="/images/widget/box-project-1.jpg" data-src="/images/widget/box-project-1.jpg" alt="" className=" lazyload" />
+										// style={{ width: "100%", height: "auto" }}
+										 src="/images/widget/card-service-6.jpg" data-src="/images/widget/box-project-1.jpg" alt="" className=" lazyload" />
 								</div>
 								<div className="tf-overlay" />
 								<div className="content">
@@ -51,7 +52,7 @@ export default function Section5() {
 										height="0"
 										sizes="100vw"
 										//  style={{ width: "100%", height: "auto" }}
-										src="/images/widget/box-project-2.jpg" data-src="/images/widget/box-project-2.jpg" alt="" className=" lazyload" />
+										src="/images/widget/card-service-7.jpg"data-src="/images/widget/box-project-2.jpg" alt="" className=" lazyload" />
 								</div>
 								<div className="tf-overlay" />
 								<div className="content">
@@ -85,7 +86,7 @@ export default function Section5() {
 										height="0"
 										sizes="100vw"
 										//  style={{ width: "100%", height: "auto" }}
-										src="/images/widget/box-project-3.jpg" data-src="/images/widget/box-project-3.jpg" alt="" className=" lazyload" />
+										src="/images/widget/card-service-8.jpg"data-src="/images/widget/box-project-3.jpg" alt="" className=" lazyload" />
 								</div>
 								<div className="tf-overlay" />
 								<div className="content">
@@ -119,7 +120,7 @@ export default function Section5() {
 										height="0"
 										sizes="100vw"
 										//  style={{ width: "100%", height: "auto" }}
-										src="/images/widget/box-project-2.jpg" data-src="/images/widget/box-project-2.jpg" alt="" className=" lazyload" />
+										src="/images/widget/card-service-8.jpg"data-src="/images/widget/box-project-2.jpg" alt="" className=" lazyload" />
 								</div>
 								<div className="tf-overlay" />
 								<div className="content">

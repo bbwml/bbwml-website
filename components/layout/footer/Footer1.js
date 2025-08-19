@@ -60,9 +60,9 @@ export default function Footer1() {
 									<div className="swiper-wrapper">
 										<SwiperSlide>
 											<div className="box-cta wow fadeInUp" data-wow-delay="0s">
-												<p className="caption font-main-2 ">Become a Team Member?</p>
+												<p className=" font-main-2 ">Become a Team Member?</p>
 												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/team-member" className="tf-btn style-10 small">
+												<Link href="/team-member" className="tf-btn style-1 small">
 													Get Started
 													<i className="icon-chevron-right" />
 												</Link>
@@ -70,9 +70,9 @@ export default function Footer1() {
 										</SwiperSlide>
 										<SwiperSlide>
 											<div className="box-cta wow fadeInUp" data-wow-delay="0.1s">
-												<p className="caption font-main-2">Need Quality Consultations?</p>
+												<p className=" font-main-2">Need Quality Consultations?</p>
 												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/team-member" className="tf-btn style-10 small">
+												<Link href="/team-member" className="tf-btn style-1 small">
 													Get Consultation
 													<i className="icon-chevron-right" />
 												</Link>
@@ -80,9 +80,9 @@ export default function Footer1() {
 										</SwiperSlide>
 										<SwiperSlide>
 											<div className="box-cta wow fadeInUp" data-wow-delay="0.2s">
-												<p className="caption font-main-2">Are You Looking For A Jobs?</p>
+												<p className="r font-main-2">Are You Looking For A Jobs?</p>
 												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/career" className="tf-btn style-10 small">
+												<Link href="/career" className="tf-btn style-1 small">
 													Join With Us
 													<i className="icon-chevron-right" />
 												</Link>
@@ -185,7 +185,7 @@ export default function Footer1() {
 									<i className="icon-arrow-top fs-8"> </i>
 								</Link>
 								<p className="no-copy style-2">
-									Copyright © {new Date().getFullYear()} <span> Saylo </span> by
+									Copyright © {new Date().getFullYear()} <span> BBWM </span> by
 									<Link href="https://themeforest.net/user/themesflat" target="_blank">
 										Themesflat
 									</Link>

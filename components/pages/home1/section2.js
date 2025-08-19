@@ -24,7 +24,7 @@ export default function Section2() {
 									</p>
 									<ul className="list mb-50">
 										<li>
-											<p className="font-main-2">
+											<p className="font-main-2 text-black">
 												Company Mission
 											</p>
 											<p className="text">
@@ -34,7 +34,7 @@ export default function Section2() {
 											</p>
 										</li>
 										<li>
-											<p className="font-main-2">
+											<p className="font-main-2 text-black">
 												Company Vision
 											</p>
 											<p className="text">
@@ -59,7 +59,7 @@ export default function Section2() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/s-about.jpg" data-src="/images/section/s-about.jpg" alt="" className="lazyload tf-animate-2" />
+											src="/images/section/bg-service.jpg" data-src="/images/section/s-about.jpg" alt="" className="lazyload tf-animate-2" />
 									</div>
 									<span className="half-circle item-1 wow rollInRight" />
 									<span className="half-circle item-2 wow rollInRight" data-wow-delay="0.5s" />

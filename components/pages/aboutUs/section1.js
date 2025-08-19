@@ -11,11 +11,11 @@ export default function Section1() {
 					<div className="row">
 						<div className="col-lg-7">
 							<div className="heading">
-								<p className="s-sub-title text-white mb-16">
+								<p className="s-sub-title mb-16">
 									<i className="icon-angles-right moveLeftToRight" />
 									about company
 								</p>
-								<p className="s-title text-white mb-70 text-anime-wave">
+								<p className="s-title mb-70 text-anime-wave">
 									We Work For Building a Brighter Future Together <br />
 									and
 									<span>
@@ -28,7 +28,7 @@ export default function Section1() {
 										height="0"
 										sizes="100vw"
 										style={{ width: "100%", height: "auto" }}
-										src="/images/section/about-6.jpg" data-src="/images/section/about-6.jpg" alt="" className="lazyload" />
+										src="/images/section/process.jpg" data-src="/images/section/about-6.jpg" alt="" className="lazyload" />
 								</div>
 							</div>
 						</div>
@@ -38,7 +38,7 @@ export default function Section1() {
 									<div className="odometer style-4"><CounterUp count={10} /></div>
 									<span className="sub-odo">+</span>
 								</div>
-								<p className="sub-counter text-white font-main-2 fw-5 fs-20 mb-70 mt-5">
+								<p className="sub-counter font-main-2 fw-5 fs-20 mb-70 mt-5">
 									Years Of Experience In Business Consulting
 								</p>
 								<div className="image mb-30 tf-hover">
@@ -48,10 +48,10 @@ export default function Section1() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/about-7.jpg" data-src="/images/section/about-7.jpg" alt="" className="lazyload tf-animate-2" />
+											src="/images/section/feature.jpg" data-src="/images/section/about-7.jpg" alt="" className="lazyload tf-animate-2" />
 									</div>
 								</div>
-								<p className="text text-white mb-40">
+								<p className="text mb-40">
 									Business consulting services are designed help organizations navigate challenges,
 									streamline operations a achieve long-term success we work closely with clients to
 									identify areas.
@@ -61,7 +61,7 @@ export default function Section1() {
 										<div className="icon">
 											<i className="icon-check-2" />
 										</div>
-										<p>
+										<p className='text text-black'>
 											Customized Solutions
 										</p>
 									</li>
@@ -69,7 +69,7 @@ export default function Section1() {
 										<div className="icon">
 											<i className="icon-check-2" />
 										</div>
-										<p>
+									<p className='text text-black'>
 											Expertise &amp; Experience
 										</p>
 									</li>
