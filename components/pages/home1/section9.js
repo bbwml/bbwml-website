@@ -20,14 +20,14 @@ export default function Section9() {
 									</p>
 									<ul className="list ">
 										<li className="wow fadeInUp" data-wow-delay="0s">
-											<p className="cap">Address Business</p>
+											<p className="cap text-black">Address Business</p>
 											<p className="infor">
 												55 East 10th Street, New York, <br />
 												NY 10003, United States
 											</p>
 										</li>
 										<li className="wow fadeInUp" data-wow-delay="0.2s">
-											<p className="cap">Contact Us</p>
+											<p className="cap text-black">Contact Us</p>
 											<p className="infor">
 												themesflat@gmail.com <br />
 												+000 (123) 456 88
@@ -36,13 +36,13 @@ export default function Section9() {
 									</ul>
 								</div>
 								<div className="content-right">
-									<p className="title mb-30 text-center font-main-2">
+									<p className="title mb-30 text-center font-main-\">
 										Get Free Consultation
 									</p>
-									<form action="#" className="form-contact style-3">
+									<form action="#" className="form-contact">
 										<div className="cols mb-20">
 											<fieldset>
-												<input type="text" placeholder="Full Name" required />
+												<input type="text" placeholder="Full Name"  required />
 											</fieldset>
 											<fieldset>
 												<input type="text" placeholder="Phone" required />

@@ -54,15 +54,15 @@ export default function Footer4() {
 							<div className="col-lg-8 offset-lg-2">
 								<div className="content">
 									<p className="title font-main-2 text-anime-wave">
-										Let’s Grow your
-										<span> Marketing Strategy </span>
+										Let's Grow your
+										<span> Business Strategy </span>
 									</p>
 									<p className="text">
-										A well-crafted marketing strategy is the foundation of any
-										successful business. It serves as a <br /> guiding how a company
-										reaches its target audience, communicates
+										A well-crafted business strategy is the foundation of any
+										successful enterprise. It serves as a <br /> guiding framework for how a company
+										reaches its goals and achieves sustainable growth
 									</p>
-									<Link href="/service-details" className="tf-btn text-anime-style-1">Get
+									<Link href="/contact" className="tf-btn text-anime-style-1">Get
 										Consultation <i className="icon-chevron-right" /></Link>
 								</div>
 							</div>
@@ -72,7 +72,7 @@ export default function Footer4() {
 				<div className="footer-inner">
 					<div className="inner-top">
 						<div className="tf-container">
-							<div className="row">
+							{/* <div className="row">
 								<div className="col-lg-4">
 									<div className="flex item-center h-100">
 										<p className="title font-main-2 fw-7">
@@ -94,7 +94,7 @@ export default function Footer4() {
 										</button>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="tf-container">
@@ -105,8 +105,7 @@ export default function Footer4() {
 										<div className="wrap">
 											<h5 className="footer-title">Company</h5>
 											<p className="text">
-												Consulting agency serves strategic businesses looking
-												overcome.
+												Professional business consulting services to help you achieve your goals and overcome challenges.
 											</p>
 										</div>
 										<div className="logo-site">
@@ -122,18 +121,22 @@ export default function Footer4() {
 									</div>
 									<div className="footer-inner-wrap s1">
 										<div className={`wrap footer-col-block  ${isAccordion1 === 1 ? 'open' : ''}`}>
-											<h5 className="footer-title footer-title-desktop">Address Business</h5>
-											<h5 className="footer-title footer-title-mobile" onClick={() => handleAccordion1(1)}>Address Business</h5>
+											<h5 className="footer-title footer-title-desktop">Office Address</h5>
+											<h5 className="footer-title footer-title-mobile" onClick={() => handleAccordion1(1)}>Office Address</h5>
 											<p className="text tf-collapse-content" style={{ display: getDisplayStyle1(1) }}>
-												55 East 10th Street, New York, NY 10003, United States
+												1st Floor Ogun House, <br />
+												Ralph Shodeinde Street, <br />
+												Central Business District, Abuja
 											</p>
 										</div>
 										<div className={`wrap footer-col-block  ${isAccordion2 === 1 ? 'open' : ''}`}>
 											<h5 className="footer-title footer-title-desktop">Contact Us</h5>
 											<h5 className="footer-title footer-title-mobile" onClick={() => handleAccordion2(1)}>Contact Us</h5>
 											<p className="text tf-collapse-content" style={{ display: getDisplayStyle2(1) }}>
-												themesflat@gmail.com <br />
-												+000 (123) 456 88
+												info@bbwml.com <br />
+												09163465130 <br />
+												08188890240 <br />
+												www.bbwml.com
 											</p>
 										</div>
 									</div>
@@ -142,19 +145,19 @@ export default function Footer4() {
 										<h5 className="footer-title footer-title-mobile" onClick={() => handleAccordion3(1)}>Services</h5>
 										<ul className="list tf-collapse-content" style={{ display: getDisplayStyle3(1) }}>
 											<li>
-												<Link href="/service-details">Financial Analysis</Link>
+												<Link href="/our-service">Business Consulting</Link>
 											</li>
 											<li>
-												<Link href="/service-details">Market Research</Link>
+												<Link href="/our-service">Strategic Planning</Link>
 											</li>
 											<li>
-												<Link href="/service-details">Competitive Analysis</Link>
+												<Link href="/our-service">Financial Analysis</Link>
 											</li>
 											<li>
-												<Link href="/service-details">HR Management</Link>
+												<Link href="/our-service">Market Research</Link>
 											</li>
 											<li>
-												<Link href="/service-details">Business Consulting</Link>
+												<Link href="/our-service">Management Consulting</Link>
 											</li>
 										</ul>
 									</div>
@@ -163,16 +166,10 @@ export default function Footer4() {
 										<h5 className="footer-title footer-title-mobile">Quick Link</h5>
 										<ul className="list tf-collapse-content">
 											<li>
-												<Link href="/about-us">About Company</Link>
+												<Link href="/about">About Company</Link>
 											</li>
 											<li>
-												<Link href="/career">Need a Career?</Link>
-											</li>
-											<li>
-												<Link href="/team-member">Meet Our Team</Link>
-											</li>
-											<li>
-												<Link href="/faqs">Clients Feedback</Link>
+												<Link href="/our-service">Our Services</Link>
 											</li>
 											<li><Link href="/contact">Contact Us</Link></li>
 										</ul>
@@ -187,13 +184,13 @@ export default function Footer4() {
 									<div className="policy-list">
 										<ul className="list">
 											<li>
-												<Link href="/faqs"> Privacy Policy </Link>
+												<Link href="/privacy"> Privacy Policy </Link>
 											</li>
 											<li>
-												<Link href="/faqs"> Terms and Conditions </Link>
+												<Link href="/terms"> Terms and Conditions </Link>
 											</li>
 											<li>
-												<Link href="/faqs"> Support </Link>
+												<Link href="/contact"> Support </Link>
 											</li>
 										</ul>
 									</div>
@@ -235,10 +232,7 @@ export default function Footer4() {
 						<div className="row">
 							<div className="col-12">
 								<p className="no-copy">
-									Copyright © {new Date().getFullYear()} <span> Saylo </span> by
-									<Link href="https://themeforest.net/user/themesflat" target="_blank">
-										Themesflat
-									</Link>
+									Copyright © {new Date().getFullYear()} <span> BBWML </span> 
 									, All Rights Reserved.
 								</p>
 							</div>

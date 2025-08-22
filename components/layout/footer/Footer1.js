@@ -56,47 +56,54 @@ export default function Footer1() {
 					<div className="tf-container">
 						<div className="row">
 							<div className="col-lg-12">
-								<Swiper {...sliderCarousel} className="swiper-container slider-carousel">
-									<div className="swiper-wrapper">
-										<SwiperSlide>
-											<div className="box-cta wow fadeInUp" data-wow-delay="0s">
-												<p className="caption font-main-2 ">Become a Team Member?</p>
-												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/team-member" className="tf-btn style-10 small">
-													Get Started
-													<i className="icon-chevron-right" />
-												</Link>
-											</div>
-										</SwiperSlide>
-										<SwiperSlide>
-											<div className="box-cta wow fadeInUp" data-wow-delay="0.1s">
-												<p className="caption font-main-2">Need Quality Consultations?</p>
-												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/team-member" className="tf-btn style-10 small">
-													Get Consultation
-													<i className="icon-chevron-right" />
-												</Link>
-											</div>
-										</SwiperSlide>
-										<SwiperSlide>
-											<div className="box-cta wow fadeInUp" data-wow-delay="0.2s">
-												<p className="caption font-main-2">Are You Looking For A Jobs?</p>
-												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/career" className="tf-btn style-10 small">
-													Join With Us
-													<i className="icon-chevron-right" />
-												</Link>
-											</div>
-										</SwiperSlide>
-									</div>
-									<div className="tf-pagination style-3 carousel-pagination swiper-pagination">
-									</div>
-								</Swiper>
-							</div>
+  <Swiper {...sliderCarousel} className="swiper-container slider-carousel">
+    <div className="swiper-wrapper">
+
+      {/* Slide 1: Consultation */}
+      <SwiperSlide>
+        <div className="box-cta wow fadeInUp" data-wow-delay="0s">
+          <p className="font-main-2">Ready to Secure Your Financial Future?</p>
+          <p className="mb-20">Schedule a complimentary discovery call with our advisory team.</p>
+          <Link href="/contact" className="tf-btn style-1 small">
+            Book Consultation
+            <i className="icon-chevron-right" />
+          </Link>
+        </div>
+      </SwiperSlide>
+
+      {/* Slide 2: Services */}
+      <SwiperSlide>
+        <div className="box-cta wow fadeInUp" data-wow-delay="0.1s">
+          <p className="font-main-2">Looking for Wealth Management Solutions?</p>
+          <p className="mb-20">Explore our private wealth, retirement, and estate planning services.</p>
+          <Link href="/our-service" className="tf-btn style-1 small">
+            Explore Services
+            <i className="icon-chevron-right" />
+          </Link>
+        </div>
+      </SwiperSlide>
+
+      {/* Slide 3: Newsletter */}
+      <SwiperSlide>
+        <div className="box-cta wow fadeInUp" data-wow-delay="0.2s">
+          <p className="font-main-2">Stay Ahead of Market Trends</p>
+          <p className="mb-20">Subscribe for insights on investments, planning, and market updates.</p>
+          <Link href="/#" className="tf-btn style-1 small">
+            Subscribe Now
+            <i className="icon-chevron-right" />
+          </Link>
+        </div>
+      </SwiperSlide>
+
+    </div>
+    <div className="tf-pagination style-3 carousel-pagination swiper-pagination"></div>
+  </Swiper>
+</div>
+
 						</div>
 					</div>
 				</div>
-				<div className="footer-inner-border">
+				{/* <div className="footer-inner-border">
 					<div className="tf-container">
 						<div className="row">
 							<div className="col-lg-12">
@@ -176,7 +183,7 @@ export default function Footer1() {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="tf-container">
 					<div className="row">
 						<div className="col-lg-12">
@@ -185,7 +192,7 @@ export default function Footer1() {
 									<i className="icon-arrow-top fs-8"> </i>
 								</Link>
 								<p className="no-copy style-2">
-									Copyright © {new Date().getFullYear()} <span> Saylo </span> by
+									Copyright © {new Date().getFullYear()} <span> BBWM </span> by
 									<Link href="https://themeforest.net/user/themesflat" target="_blank">
 										Themesflat
 									</Link>
