@@ -2,6 +2,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect } from "react"
+import { ImTarget } from "react-icons/im";
+
 export default function Section2() {
 	useEffect(() => {
 		const elements = document.querySelectorAll(
@@ -34,7 +36,6 @@ export default function Section2() {
 	}, [])
 	return (
 		<>
-
 			<section className="s-why-choose-3 tf-spacing-8">
 				<div className="tf-container">
 					<div className="row">
@@ -51,25 +52,24 @@ export default function Section2() {
 											</Link>
 										</div>
 										<p className="text">
-											Our mission is to empower businesses by providing innovative, data-driven
-											solutions that drive growth, enhance efficiency, and create lasting value.
-											We are committed to delivering exceptional service and personalized.
+											To help individuals and businesses grow, preserve, and transfer wealth 
+											through disciplined investing, personalized advice, and transparent stewardship. 
+											We are committed to delivering exceptional service that helps our clients succeed.
 										</p>
 									</li>
 									<li className="wow fadeInUp" data-wow-delay="0s">
 										<div className="title">
 											<div className="icon">
-												<i className="flaticon-market" />
+												<ImTarget style={{ fontSize: "24px" }} />
 											</div>
 											<Link href="/#">
 												Company Vision &amp; Goals
 											</Link>
 										</div>
 										<p className="text">
-											Our vision is to be global leader delivering transformative to business
-											solutions that empower organizations to reach their full potential. We
-											strive to se standard for innovation, excellence, and customer success by
-											continuously
+											To be the most trusted wealth partner in Africa—known for data-driven strategies, 
+											human-centered guidance, and long-term performance. We strive to set the standard 
+											for excellence in wealth management and financial advisory services.
 										</p>
 									</li>
 								</ul>
@@ -83,66 +83,66 @@ export default function Section2() {
 										height="0"
 										sizes="100vw"
 										style={{ width: "100%", height: "auto" }}
-										src="/images/section/why.jpg" data-src="/images/section/why.jpg" alt="" className="lazyload tf-animate-2" />
+										src="/images/widget/card-service-6.jpg" data-src="/images/section/why.jpg" alt="" className="lazyload tf-animate-2" />
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-12">
 							<div className="content">
 								<div className="content-left">
-									<p className="s-sub-title text-white">
+									<p className="s-sub-title ">
 										<i className="icon-angles-right moveLeftToRight" />
 										Why choose us
 									</p>
-									<p className="s-title text-white mb-30 text-anime-wave">
-										Professional Skills and
+									<p className="s-title  mb-30 text-anime-wave">
+										Professional Expertise and
 										<span>
-											Experience
+											Investment Excellence
 										</span>
 									</p>
-									<p className="text text-white">
-										Our commitment to integrity, collaboration, and impact-driven
-										aim to inspire and shape the future of business growth
+									<p className="text ">
+										Our commitment to transparency, disciplined investing, and client-focused 
+										approach drives us to deliver institutional-grade solutions tailored to your unique goals
 									</p>
 								</div>
 								<div className="content-right">
 									<div className="wg-skill mb-40 ">
 										<div className="name">
-											<p>
-												Business Consulting
+											<p className='text-black'>
+												Portfolio Management
 											</p>
-											<p className="percent">
-												89%
+											<p className="percent text-black">
+												95%
 											</p>
 										</div>
 										<div className="progress tf-animate-1">
-											<div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{ width: '89%' }} />
+											<div className="progress-bar" role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} style={{ width: '95%' }} />
 										</div>
 									</div>
 									<div className="wg-skill mb-40 ">
 										<div className="name">
-											<p>
-												Marketing Consulting
+											<p className='text-black'>
+												Investment Advisory
 											</p>
-											<p className="percent">
-												73%
+											<p className="percent text-black">
+												92%
 											</p>
 										</div>
 										<div className="progress tf-animate-1">
-											<div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{ width: '73%' }} />
+											<div className="progress-bar" role="progressbar" aria-valuenow={92} aria-valuemin={0} aria-valuemax={100} style={{ width: '92%' }} />
 										</div>
 									</div>
 									<div className="wg-skill ">
 										<div className="name">
-											<p>
-												Financial Consulting
+											<p className='text-black'>
+												Wealth Planning
 											</p>
-											<p className="percent">
-												80%
+											<p className="percent text-black">
+												88%
 											</p>
 										</div>
 										<div className="progress tf-animate-1">
-											<div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} />
+											<div className="progress-bar" role="progressbar" aria-valuenow={88} aria-valuemin={0} aria-valuemax={100} style={{ width: '88%' }} />
 										</div>
 									</div>
 								</div>
@@ -151,7 +151,6 @@ export default function Section2() {
 					</div>
 				</div>
 			</section>
-
 		</>
 	)
 }

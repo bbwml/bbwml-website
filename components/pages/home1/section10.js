@@ -35,7 +35,7 @@ export default function Section10() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-1.jpg" data-src="/images/blog/card-blog-item-1.jpg" alt="" className="lazyload" />
+														src="/images/section/six.jpg" data-src="/images/blog/card-blog-item-1.jpg" alt="" className="lazyload" />
 													<div className="entry-date">
 														<p className="day">25</p>
 														<p className="month">Sep</p>
@@ -84,7 +84,7 @@ export default function Section10() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-2.jpg" data-src="/images/blog/card-blog-item-2.jpg" alt="" className="lazyload" />
+														src="/images/section/five.jpg" data-src="/images/blog/card-blog-item-2.jpg" alt="" className="lazyload" />
 													<div className="entry-date">
 														<p className="day">25</p>
 														<p className="month">Sep</p>
@@ -133,7 +133,7 @@ export default function Section10() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-3.jpg" data-src="/images/blog/card-blog-item-3.jpg" alt="" className="lazyload" />
+														src="/images/section/four.jpg" data-src="/images/blog/card-blog-item-3.jpg" alt="" className="lazyload" />
 													<div className="entry-date">
 														<p className="day">25</p>
 														<p className="month">Sep</p>
@@ -182,7 +182,7 @@ export default function Section10() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-2.jpg" data-src="/images/blog/card-blog-item-2.jpg" alt="" className="lazyload" />
+														src="/images/section/three.jpg" data-src="/images/blog/card-blog-item-2.jpg" alt="" className="lazyload" />
 													<div className="entry-date">
 														<p className="day">25</p>
 														<p className="month">Sep</p>
@@ -231,7 +231,7 @@ export default function Section10() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-3.jpg" data-src="/images/blog/card-blog-item-3.jpg" alt="" className="lazyload" />
+														src="/images/section/two.jpg" data-src="/images/blog/card-blog-item-3.jpg" alt="" className="lazyload" />
 													<div className="entry-date">
 														<p className="day">25</p>
 														<p className="month">Sep</p>

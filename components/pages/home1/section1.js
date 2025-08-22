@@ -1,9 +1,8 @@
-
 import Link from 'next/link'
+
 export default function Section1() {
 	return (
 		<>
-
 			<section className="s-feature tf-spacing-3">
 				<div className="tf-container w-1780">
 					<div className="row">
@@ -14,12 +13,12 @@ export default function Section1() {
 								</div>
 								<p className="title font-main-2 fw-7">
 									<Link href="/our-service">
-										Consulting Strategy
+										Private Wealth Management
 									</Link>
 								</p>
 								<p className="text">
-									Tailored strategies designed to address the unique ways
-									challenges and opportunities of each client.
+									Comprehensive planning and discretionary portfolio management 
+									tailored to your unique financial goals and circumstances.
 								</p>
 								<span className="line mb-40" />
 								<ul className="benefit-list style-3">
@@ -29,7 +28,7 @@ export default function Section1() {
 										</div>
 										<p>
 											<Link href="/service-details">
-												Data-Driven Insights Leveraging
+												Personalized Portfolio Construction
 											</Link>
 										</p>
 									</li>
@@ -39,7 +38,7 @@ export default function Section1() {
 										</div>
 										<p>
 											<Link href="/service-details">
-												Scalability and Flexibility
+												Tax-Efficient Strategies
 											</Link>
 										</p>
 									</li>
@@ -49,7 +48,7 @@ export default function Section1() {
 										</div>
 										<p>
 											<Link href="/service-details">
-												Goal-Oriented Planning
+												Ongoing Monitoring & Rebalancing
 											</Link>
 										</p>
 									</li>
@@ -63,13 +62,12 @@ export default function Section1() {
 								</div>
 								<p className="title font-main-2 fw-7">
 									<Link href="/our-service-02" style={{ color: "#ffffff" }}>
-										Business Growth &amp; Solutions
+										Investment Management
 									</Link>
 								</p>
 								<p className="text" style={{ color: "#ffffff" }}>
-									Our business growth and solutions services are designed to drive sustainable
-									success
-									for your company.
+									Multi-asset portfolios with model-based or bespoke mandates 
+									designed to optimize risk-adjusted returns.
 								</p>
 								<span className="line mb-40" />
 								<ul className="benefit-list style-3">
@@ -79,7 +77,7 @@ export default function Section1() {
 										</div>
 										<p>
 											<Link href="/service-details" style={{ color: "#ffffff" }}>
-												Market Opportunity Identification
+												Diversified Asset Allocation
 											</Link>
 										</p>
 									</li>
@@ -89,7 +87,7 @@ export default function Section1() {
 										</div>
 										<p>
 											<Link href="/service-details" style={{ color: "#ffffff" }}>
-												Customer-Centric Approach
+												Risk-Managed Approach
 											</Link>
 										</p>
 									</li>
@@ -113,13 +111,12 @@ export default function Section1() {
 								</div>
 								<p className="title font-main-2 fw-7">
 									<Link href="/our-service">
-										Marketing Growth Solutions
+										Retirement & Estate Planning
 									</Link>
 								</p>
 								<p className="text">
-									Our marketing growth solutions are designed accelerate your business’s reach
-									and
-									growth impact.
+									Tax-advantaged strategies, drawdown planning, and intergenerational 
+									wealth transfer solutions for long-term financial security.
 								</p>
 								<span className="line mb-40" />
 								<ul className="benefit-list style-3">
@@ -129,7 +126,7 @@ export default function Section1() {
 										</div>
 										<p>
 											<Link href="/service-details">
-												Performance Tracking &amp; Reporting
+												Retirement Income Planning
 											</Link>
 										</p>
 									</li>
@@ -139,7 +136,7 @@ export default function Section1() {
 										</div>
 										<p>
 											<Link href="/service-details">
-												Automation and Technology
+												Trust Structures & Estate Planning
 											</Link>
 										</p>
 									</li>
@@ -149,7 +146,7 @@ export default function Section1() {
 										</div>
 										<p>
 											<Link href="/service-details">
-												SEO &amp; Content Optimization
+												Tax Optimization Strategies
 											</Link>
 										</p>
 									</li>
@@ -159,7 +156,6 @@ export default function Section1() {
 					</div>
 				</div>
 			</section>
-
 		</>
 	)
 }

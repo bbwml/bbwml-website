@@ -76,7 +76,7 @@ export default function Section4() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/widget/accordion-type-3.jpg" data-src="/images/widget/accordion-type-3.jpg" alt="" className="lazyload" />
+													src="/images/widget/card-service-10.jpg" data-src="/images/widget/accordion-type-3.jpg" alt="" className="lazyload" />
 											</div>
 										</div>
 									</div>
@@ -129,7 +129,7 @@ export default function Section4() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/widget/accordion-type-3-2.jpg" data-src="/images/widget/accordion-type-3-2.jpg" alt="" className="lazyload" />
+													src="/images/widget/card-service-9.jpg" data-src="/images/widget/accordion-type-3.jpg" alt="" className="lazyload" />
 											</div>
 										</div>
 									</div>
@@ -182,7 +182,7 @@ export default function Section4() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/widget/accordion-type-3-3.jpg" data-src="/images/widget/accordion-type-3-3.jpg" alt="" className="lazyload" />
+													src="/images/widget/card-service-8.jpg" data-src="/images/widget/accordion-type-3.jpg" alt="" className="lazyload" />
 											</div>
 										</div>
 									</div>
@@ -235,7 +235,7 @@ export default function Section4() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/widget/accordion-type-3-4.jpg" data-src="/images/widget/accordion-type-3-4.jpg" alt="" className="lazyload" />
+													src="/images/widget/card-service-7.jpg" data-src="/images/widget/accordion-type-3.jpg" alt="" className="lazyload" />
 											</div>
 										</div>
 									</div>

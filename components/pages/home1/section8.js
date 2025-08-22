@@ -112,7 +112,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/section/testimonial-thumbs.jpg" data-src="/images/section/testimonial-thumbs.jpg" alt="" className="lazyload" />
+													src="/images/section/two.jpg" data-src="/images/section/testimonial-thumbs.jpg" alt="" className="lazyload" />
 											</div>
 										</SwiperSlide>
 										<SwiperSlide>
@@ -122,7 +122,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/section/testimonial-thumbs.jpg" data-src="/images/section/testimonial-thumbs.jpg" alt="" className="lazyload" />
+													src="/images/section/three.jpg" data-src="/images/section/testimonial-thumbs.jpg" alt="" className="lazyload" />
 											</div>
 										</SwiperSlide>
 									</div>
@@ -135,14 +135,14 @@ export default function Section8() {
 													<i className="icon-quote-left-saying-speech" />
 												</div>
 												<p className="say font-main-2 mb-30 text-clamp-5 ">
-													"Working with saylo was a game changer for our company.
+													"Working with BBWM was a game changer for our company.
 													Their
 													team quickly identif inefficiencies in our operations and
 													helped us streamline,"
 												</p>
 												<div className="bot">
 													<Link href="/#" className="name fw-7"> Mendoza P. Alfredo </Link>
-													<p className="duty">CEO of Tech Solutions</p>
+													{/* <p className="duty">CEO of Tech Solutions</p> */}
 												</div>
 											</div>
 										</SwiperSlide>
