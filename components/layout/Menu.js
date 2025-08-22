@@ -29,8 +29,8 @@ export default function Menu() {
           <span>Services</span>
         </Link>
       </li>
-      <li className={`item ${isActive("/case-study-02")}`}>
-        <Link href="/case-study-02">
+      <li className={`item ${isActive("/insights")}`}>
+        <Link href="/insights">
           <span>Insights</span>
         </Link>
       </li>
