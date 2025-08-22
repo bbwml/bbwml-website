@@ -1,8 +1,6 @@
-
 export default function Section6() {
 	return (
 		<>
-
 			<section className="s-contact tf-spacing-3">
 				<div className="tf-container ">
 					<div className="row">
@@ -19,60 +17,36 @@ export default function Section6() {
 										</span>
 									</p>
 									<ul className="list">
-										<li className="wow fadeInUp" data-wow-delay="0s">
-											<p className="cap">Address Business</p>
+										<li className="wow fadeInUp" data-wow-delay="0s" style={{ paddingBottom: '2rem' }}>
+											<p className="cap" style={{ color: 'black' }}>Address Business</p>
 											<p className="infor">
-												55 East 10th Street, New York,
-												NY 10003, United States
+												1st Floor Ogun House, Ralph Shodeinde Street, 
+												Central Business District, Abuja
 											</p>
 										</li>
-										<li className="wow fadeInUp" data-wow-delay="0.1s">
-											<p className="cap">Contact Us</p>
-											<p className="infor">
-												themesflat@gmail.com
-												+000 (123) 456 88
-											</p>
-										</li>
+										
 									</ul>
 								</div>
 								<div className="content-right">
 									<p className="title mb-30 text-center font-main-2">
 										Get Free Consultation
 									</p>
-									<form action="#" className="form-contact style-3">
-										<div className="cols mb-20">
-											<fieldset>
-												<input type="text" placeholder="Full Name" required />
-											</fieldset>
-											<fieldset>
-												<input type="text" placeholder="Phone" required />
-											</fieldset>
+									<div className="infor" style={{ display: 'flex', flexDirection: 'column', gap: '15px', alignItems: 'center' }}>
+										<div style={{ display: 'flex', alignItems: 'center', gap: '10px', backgroundColor: 'rgba(255, 255, 255, 0.1)', padding: '12px 20px', borderRadius: '8px', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
+											<i className="icon-envelope" style={{ color: '#07207aff', fontSize: '18px' }}></i>
+											<span style={{ color: 'black', fontWeight: '500' }}>info@bbwml.com</span>
 										</div>
-										<div className="cols mb-20">
-											<fieldset>
-												<input type="email" placeholder="Email" required />
-											</fieldset>
-											<fieldset>
-												<input type="text" placeholder="Subject" required />
-											</fieldset>
+										<div style={{ display: 'flex', alignItems: 'center', gap: '10px', backgroundColor: 'rgba(255, 255, 255, 0.1)', padding: '12px 20px', borderRadius: '8px', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
+											<i className="icon-phone" style={{ color: '#ffd700', fontSize: '18px' }}></i>
+											<span style={{ color: 'black', fontWeight: '500' }}>09163465130, 08188890240</span>
 										</div>
-										<div className="cols mb-20">
-											<fieldset>
-												<textarea className="h-100px" placeholder="Write message" />
-											</fieldset>
-										</div>
-										<button type="submit" className="tf-btn full text-anime-style-1">
-											Get Consultation
-											<i className="icon-chevron-right" />
-										</button>
-									</form>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
 		</>
 	)
 }

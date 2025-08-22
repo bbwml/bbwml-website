@@ -36,6 +36,7 @@ export default function Section2() {
 	}, [])
 	return (
 		<>
+
 			<section className="s-why-choose-3 tf-spacing-8">
 				<div className="tf-container">
 					<div className="row">
@@ -52,9 +53,9 @@ export default function Section2() {
 											</Link>
 										</div>
 										<p className="text">
-											To help individuals and businesses grow, preserve, and transfer wealth 
-											through disciplined investing, personalized advice, and transparent stewardship. 
-											We are committed to delivering exceptional service that helps our clients succeed.
+											Our mission is to empower businesses by providing innovative, data-driven
+											solutions that drive growth, enhance efficiency, and create lasting value.
+											We are committed to delivering exceptional service and personalized.
 										</p>
 									</li>
 									<li className="wow fadeInUp" data-wow-delay="0s">
@@ -67,9 +68,10 @@ export default function Section2() {
 											</Link>
 										</div>
 										<p className="text">
-											To be the most trusted wealth partner in Africa—known for data-driven strategies, 
-											human-centered guidance, and long-term performance. We strive to set the standard 
-											for excellence in wealth management and financial advisory services.
+											Our vision is to be global leader delivering transformative to business
+											solutions that empower organizations to reach their full potential. We
+											strive to se standard for innovation, excellence, and customer success by
+											continuously
 										</p>
 									</li>
 								</ul>
@@ -95,54 +97,54 @@ export default function Section2() {
 										Why choose us
 									</p>
 									<p className="s-title  mb-30 text-anime-wave">
-										Professional Expertise and
+										Professional Skills and
 										<span>
-											Investment Excellence
+											Experience
 										</span>
 									</p>
 									<p className="text ">
-										Our commitment to transparency, disciplined investing, and client-focused 
-										approach drives us to deliver institutional-grade solutions tailored to your unique goals
+										Our commitment to integrity, collaboration, and impact-driven
+										aim to inspire and shape the future of business growth
 									</p>
 								</div>
 								<div className="content-right">
 									<div className="wg-skill mb-40 ">
 										<div className="name">
 											<p className='text-black'>
-												Portfolio Management
+												Business Consulting
 											</p>
 											<p className="percent text-black">
-												95%
+												89%
 											</p>
 										</div>
 										<div className="progress tf-animate-1">
-											<div className="progress-bar" role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} style={{ width: '95%' }} />
+											<div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{ width: '89%' }} />
 										</div>
 									</div>
 									<div className="wg-skill mb-40 ">
 										<div className="name">
 											<p className='text-black'>
-												Investment Advisory
+												Marketing Consulting
 											</p>
 											<p className="percent text-black">
-												92%
+												73%
 											</p>
 										</div>
 										<div className="progress tf-animate-1">
-											<div className="progress-bar" role="progressbar" aria-valuenow={92} aria-valuemin={0} aria-valuemax={100} style={{ width: '92%' }} />
+											<div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{ width: '73%' }} />
 										</div>
 									</div>
 									<div className="wg-skill ">
 										<div className="name">
 											<p className='text-black'>
-												Wealth Planning
+												Financial Consulting
 											</p>
 											<p className="percent text-black">
-												88%
+												80%
 											</p>
 										</div>
 										<div className="progress tf-animate-1">
-											<div className="progress-bar" role="progressbar" aria-valuenow={88} aria-valuemin={0} aria-valuemax={100} style={{ width: '88%' }} />
+											<div className="progress-bar" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} />
 										</div>
 									</div>
 								</div>
@@ -151,6 +153,7 @@ export default function Section2() {
 					</div>
 				</div>
 			</section>
+
 		</>
 	)
 }

@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 export default function Section4() {
   return (
     <>
@@ -10,15 +9,16 @@ export default function Section4() {
               <div className="col-lg-8">
                 <div className="content">
                   <p className="s-title  text-anime-wave">
-                    Driving Wealth Growth through Sophisticated{" "}
-                    <span>Investment Solutions</span>
+                    Driving Business Growth through Innovative{" "}
+                    <span>Solutions</span>
                   </p>
                   <p className="text ">
-                    We combine institutional-grade research with technology to deliver 
-                    diversified portfolios, real-time visibility, and proactive advice—tailored 
-                    to your goals, risk tolerance, and timeline. Through disciplined investing, 
-                    transparency, and a relentless focus on long-term performance, we aim to be 
-                    your trusted partner in building lasting wealth.
+                    We are committed to delivering exceptional service and
+                    personalized strategies that help our clients succeed in a
+                    rapidly evolving marketplace. Through collaboration,
+                    integrity, and a relentless focus on results, we aim to be a
+                    trusted partner in their journey toward sustainable success
+                    and industry leadership
                   </p>
                 </div>
               </div>
@@ -47,11 +47,11 @@ export default function Section4() {
                   <i className="flaticon-target" />
                 </div>
                 <p className="title font-main-2 fw-7">
-                  <Link href="/our-service">Investment Strategy</Link>
+                  <Link href="/our-service">Consulting Strategy</Link>
                 </p>
                 <p className="text">
-                  Goals-based portfolio construction designed to address the unique 
-                  financial objectives and risk tolerance of each client.
+                  Tailored strategies designed to address the unique ways
+                  challenges and opportunities of each client.
                 </p>
                 <span className="line mb-40" />
                 <ul className="benefit-list style-3">
@@ -61,7 +61,7 @@ export default function Section4() {
                     </div>
                     <p>
                       <Link href="#">
-                        Data-Driven Portfolio Construction
+                        Data-Driven Insights Leveraging
                       </Link>
                     </p>
                   </li>
@@ -71,7 +71,7 @@ export default function Section4() {
                     </div>
                     <p>
                       <Link href="#">
-                        Risk-Managed Diversification
+                        Scalability and Flexibility
                       </Link>
                     </p>
                   </li>
@@ -81,7 +81,7 @@ export default function Section4() {
                     </div>
                     <p>
                       <Link href="#">
-                        Goal-Oriented Asset Allocation
+                        Goal-Oriented Planning
                       </Link>
                     </p>
                   </li>
@@ -95,12 +95,12 @@ export default function Section4() {
                 </div>
                 <Link href="/our-service-02">
                   <p className="title font-main-2 fw-7">
-                    Wealth Management &amp; Planning
+                    Business Growth &amp; Solutions
                   </p>
                 </Link>
                 <p className="text text-white">
-                  Our comprehensive wealth management services are designed to 
-                  maximize your wealth potential through sophisticated investment strategies.
+                  Our business growth and solutions services are designed to
+                  drive sustainable success for your company.
                 </p>
                 <span className="line mb-40" />
                 <ul className="benefit-list style-3 text-white">
@@ -108,19 +108,19 @@ export default function Section4() {
                     <div className="icon">
                       <i className="icon-star-of-life" />
                     </div>
-                    <p>Comprehensive Financial Planning</p>
+                    <p>Market Opportunity Identification</p>
                   </li>
                   <li>
                     <div className="icon">
                       <i className="icon-star-of-life" />
                     </div>
-                    <p>Tax-Aware Optimization</p>
+                    <p>Customer-Centric Approach</p>
                   </li>
                   <li>
                     <div className="icon">
                       <i className="icon-star-of-life" />
                     </div>
-                    <p>Performance Monitoring</p>
+                    <p>Performance Tracking</p>
                   </li>
                 </ul>
               </div>
@@ -132,12 +132,12 @@ export default function Section4() {
                 </div>
                 <p className="title font-main-2 fw-7">
                   <Link href="/our-service" className=" hover-text-main-yellow">
-                    Asset Management Solutions
+                    Marketing Growth Solutions
                   </Link>
                 </p>
                 <p className="text">
-                  Our asset management solutions combine broad diversification 
-                  with cost-effective instruments to optimize your investment outcomes.
+                  Our marketing growth solutions are designed accelerate your
+                  business’s reach and growth impact.
                 </p>
                 <span className="line mb-40" />
                 <ul className="benefit-list style-3">
@@ -150,7 +150,7 @@ export default function Section4() {
                         href="#"
                         className=" hover-text-main-yellow"
                       >
-                        Portfolio Diversification
+                        Performance Tracking &amp; Reporting
                       </Link>
                     </p>
                   </li>
@@ -163,7 +163,7 @@ export default function Section4() {
                         href="#"
                         className=" hover-text-main-yellow"
                       >
-                        Alternative Investments
+                        Automation and Technology
                       </Link>
                     </p>
                   </li>
@@ -176,7 +176,7 @@ export default function Section4() {
                         href="#"
                         className=" hover-text-main-yellow"
                       >
-                        ESG Investment Options
+                        SEO &amp; Content Optimization
                       </Link>
                     </p>
                   </li>

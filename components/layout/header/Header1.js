@@ -37,7 +37,7 @@ export default function Header1({
                       </div>
                       <p>
                         Phone No :
-                        <Link href="/tel:+00012345688"> +000 (123) 456 88</Link>
+                        <Link href="/tel:+2349163465130"> 09163465130</Link>
                       </p>
                     </li>
                     <li>
@@ -163,8 +163,8 @@ export default function Header1({
                         <li>
                           <p>
                             Call:{" "}
-                            <Link href="/tel:+00012345688">
-                              +000 (123) 456 88
+                            <Link href="/tel:+2349163465130">
+                              09163465130
                             </Link>
                           </p>
                         </li>
