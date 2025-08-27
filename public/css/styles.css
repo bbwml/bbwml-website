@@ -1660,8 +1660,15 @@ a.hover-text-main-golden:hover {
 }
 
 .header-inner .logo-site img {
-  max-width: 230px;
+  max-width: 270px;
 }
+
+@media screen and (max-width: 1400px) {
+  .header-inner .logo-site img {
+    max-width: 220px;
+  }
+}
+
 
 .header-inner .header-right {
   display: -webkit-box;

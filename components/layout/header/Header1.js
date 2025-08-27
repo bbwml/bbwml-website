@@ -21,16 +21,10 @@ export default function Header1({
                   <div className="icon">
                     <i className="flaticon-tag" />
                   </div>
-                  <p>Welcome to BBWML Wealth Management</p>
+                  <p>Welcome to B&B Wealth Management</p>
                 </div>
                 <div className="topbar-right">
                   <ul className="infor-list">
-                    <li>
-                      <div className="icon">
-                        <i className="flaticon-open-mail" />
-                      </div>
-                      <Link href="mailto:info@bbwml.com">info@bbwml.com</Link>
-                    </li>
                     <li>
                       <div className="icon">
                         <i className="flaticon-phone-call" />
@@ -64,8 +58,8 @@ export default function Header1({
                   <div className="logo-site">
                     <Link href="/">
                       <Image
-                        width="230"
-                        height="39"
+                        width="270"
+                        height="59"
                         id="logo_header"
                         src="/images/logo/logo.png"
                         data-retina="./images/logo/logo.png"
