@@ -26,7 +26,7 @@ export default function Section1() {
 									</span>
 								</p>
 								<p className="text-center mb-50" style={{maxWidth: '800px', margin: '0 auto 50px'}}>
-									Navigate the complexities of the modern business and financial landscape with confidence. At BBWML, we believe that knowledge is the cornerstone of growth and preservation. This resource hub provides actionable insights, analysis, and perspectives on wealth management, business strategy, and economic trends—helping you make informed decisions for a more prosperous future.
+									Navigate the complexities of the modern business and financial landscape with confidence. At B&B, we believe that knowledge is the cornerstone of growth and preservation. This resource hub provides actionable insights, analysis, and perspectives on wealth management, business strategy, and economic trends—helping you make informed decisions for a more prosperous future.
 								</p>
 								
 								{/* Featured Article */}

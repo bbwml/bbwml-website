@@ -16,7 +16,7 @@ export default function Section1() {
 								</p>
 								<p className="s-title mb-70 text-anime-wave">
 									We Work For Building Wealth and Financial Security Together <br />
-									and
+									and{" "}
 									<span>
 										Grow Prosperity
 									</span>

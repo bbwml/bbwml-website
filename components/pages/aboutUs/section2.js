@@ -95,7 +95,7 @@ export default function Section2() {
 										Why choose us
 									</p>
 									<p className="s-title  mb-30 text-anime-wave">
-										Professional Expertise and
+										Professional Expertise and{" "}
 										<span>
 											Investment Excellence
 										</span>

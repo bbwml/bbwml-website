@@ -135,7 +135,7 @@ export default function Section8() {
 													<i className="icon-quote-left-saying-speech" />
 												</div>
 												<p className="say font-main-2 mb-30 text-clamp-5 ">
-													"Working with BBWM was a game changer for our company.
+													"Working with B&B was a game changer for our company.
 													Their
 													team quickly identif inefficiencies in our operations and
 													helped us streamline,"
