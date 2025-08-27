@@ -27,12 +27,6 @@ export default function Header1({
                   <ul className="infor-list">
                     <li>
                       <div className="icon">
-                        <i className="flaticon-open-mail" />
-                      </div>
-                      <Link href="mailto:info@bbwml.com">info@bbwml.com</Link>
-                    </li>
-                    <li>
-                      <div className="icon">
                         <i className="flaticon-phone-call" />
                       </div>
                       <p>
