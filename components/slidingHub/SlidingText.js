@@ -6,52 +6,52 @@ const SlidingText = () => {
             <div className="wrap-marquee">
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Asset Management
+                        B&B Asset Management
                     </p>
                 </div>
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Asset Management
+                        B&B Asset Management
                     </p>
                 </div>
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Wealth Management
+                        B&B Wealth Management
                     </p>
                 </div>
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Wealth Management
+                        B&B Wealth Management
                     </p>
                 </div>
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Wealth Management
+                        B&B Wealth Management
                     </p>
                 </div>
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Wealth Management
+                        B&B Wealth Management
                     </p>
                 </div>
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Wealth Management
+                        B&B Wealth Management
                     </p>
                 </div>
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Wealth Management
+                        B&B Wealth Management
                     </p>
                 </div>
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Wealth Management
+                        B&B Wealth Management
                     </p>
                 </div>
                 <div className="marquee-item">
                     <p className="font-main-2 text">
-                        BBWML Wealth Management
+                        B&B Wealth Management
                     </p>
                 </div>
             </div>

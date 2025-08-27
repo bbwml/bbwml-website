@@ -21,7 +21,7 @@ export default function Section4() {
 								</p>
 								<p className="s-title mb-70 text-center text-anime-wave">
 									From Discovery to Delivery <br />
-									Our Investment
+									Our Investment{" "}
 									<span>
 										Process
 									</span>
