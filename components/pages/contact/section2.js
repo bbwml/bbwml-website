@@ -21,7 +21,7 @@ export default function Section2() {
 									<div className="comment-wrap style-2">
 										
 										<p className="note mb-40">
-											Send Us a Message
+											We’re ready to help you begin your wealth journey.
 										</p>
 										<h3 className="text-anime-wave">
 											info@bbwml.com

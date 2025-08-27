@@ -20,43 +20,60 @@ export default function Hero1() {
                     <i className="icon-angles-right moveLeftToRight" />
                     B&B Wealth Management
                   </p>
-                  <p className="s-title text-dark mb-50 text-fs-70">
-                    Build, preserve, and transfer wealth—
+                  <p
+                    className="text-dark mb-50 text-fs-70"
+                    style={{
+                      fontWeight: "700", // make everything bold
+                      fontSize: "44px", // bigger text (adjust as needed)
+                      lineHeight: "1.2", // tighter spacing for large text
+                    }}
+                  >
+                    Trusted Wealth Management, 
                     <br />
                     <span className="animationtext clip">
                       <TypeAnimation
-                        sequence={[
-                          "intelligently",
-                          1000,
-                          "with discipline",
-                          1000,
-                          "with confidence",
-                          1000,
-                        ]}
+                        sequence={["Trading  & Advisory", 1500,]}
                         wrapper="span"
                         speed={50}
                         style={{
                           display: "inline-block",
                           color: "var(--Main-yellow)",
-                          fontWeight: "500",
+                          fontWeight: "700", // bold for animation text
                         }}
                         repeat={Infinity}
                         className="cd-words-wrapper"
-                      ></TypeAnimation>
+                      />
                     </span>
                   </p>
+
+                  <p
+                    className="text font-main-2 fw-5 mb-40"
+                    style={{
+                      fontSize: "16px", // slightly bigger subtext
+                      fontWeight: "500", // medium bold
+                      marginTop: "20px",
+                    }}
+                  >
+                    Licensed by the Securities and Exchange Commission (SEC)
+                    Nigeria
+                  </p>
+
                   <span className="line mb-50" />
+
                   <p className="text font-main-2 fw-5 mb-40">
-                    Personalized portfolios, real-time dashboards, and expert
-                    guidance <br /> for every milestone— from your first ₦1M to
-                    multigenerational wealth.
+                    At B & B Wealth Management, we help individuals, families,
+                    corporates, and institutions preserve, grow, and transfer
+                    wealth with confidence. With decades of combined experience,
+                    our team delivers trusted investment and trading solutions
+                    built on transparency, innovation, and local expertise with
+                    global standards.{" "}
                   </p>
                   <div className="bot">
                     <Link href="/our-service" className="tf-btn">
-                      Start Your Plan
+                      Start Your Wealth Journey
                       <i className="icon-chevron-right" />
                     </Link>
-                    <div className="video-wrap">
+                    {/* <div className="video-wrap">
                       <a
                         onClick={() => setOpen(true)}
                         className="popup-youtube fs-14 fw-7"
@@ -68,7 +85,7 @@ export default function Hero1() {
                         </span>
                         Talk to an Advisor
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

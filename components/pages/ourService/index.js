@@ -8,9 +8,10 @@ export default function OurService() {
 
 	return (
 		<>
+			<Section4 />
 			<Section1 />
 			<Section2 />
-			<Section4 />
+		
 			<Section3 />
 			
 			{/* <Section5 /> */}

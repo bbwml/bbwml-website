@@ -16,9 +16,8 @@ export default function Section4() {
                   Our Services
                 </p>
                 <p className="s-title text-center text-anime-wave">
-                  Comprehensive Wealth Management <br />
-                  and
-                  <span> Advisory Solutions </span>
+                  At B & B Wealth, we design solutions that align with your
+                  <span> financial goals and risk appetite.</span>
                 </p>
               </div>
 
@@ -31,25 +30,28 @@ export default function Section4() {
                       height="0"
                       sizes="100vw"
                       style={{ width: "100%", height: "auto" }}
-                        src="/images/widget/card-service-9.jpg"
+                      src="/images/widget/card-service-9.jpg"
                       alt="Private Wealth Management"
                       className="lazyload"
                     />
                   </div>
                   <div className="content">
                     <div className="icon">
-                      <i className="flaticon-data-management" />
+                      <i className="flaticon-return-of-investment" />
                     </div>
                     <Link
                       href="/service-details/private-wealth"
                       className="title fw-7"
                     >
-                      Private Wealth Management
+                      Portfolio Management - Tailored strategies to protect and
+                      grow your wealth.
                     </Link>
                     <p className="text">
-                      For founders, professionals, and families seeking ongoing,
-                      holistic financial planning, portfolio management, and
-                      estate coordination with dedicated advisor support.
+                      Tailored investment strategies across:
+                      <br></br>• FGN Bonds & Treasury Bills
+                      <br></br>• Money Market Instruments
+                      <br></br>• Eurobonds
+                      <br></br>• Equities (NGX-listed shares)
                     </p>
                     <Link
                       href="/service-details/private-wealth"
@@ -75,19 +77,22 @@ export default function Section4() {
                   </div>
                   <div className="content">
                     <div className="icon">
-                      <i className="flaticon-return-of-investment" />
+                      <i className="flaticon-data-management" />
                     </div>
                     <Link
                       href="/service-details/portfolio"
                       className="title fw-7"
                     >
-                      Discretionary Portfolio Management
+                      Equities & Fixed Income Trading - Direct access to
+                      Nigeria’s markets with global expertise
                     </Link>
                     <p className="text">
-                      For hands-off investors who want us to manage day-to-day
-                      decisions with bespoke or model-driven multi-asset
-                      portfolios, systematic rebalancing, and performance
-                      reporting.
+                      Direct access to:
+                      <br></br>• NGX-listed shares and securities
+                      <br></br>• Initial Public Offerings (IPOs) & Rights Issues
+                      <br></br>• Government securities (FGN Bonds, T-Bills,
+                      Sukuks)
+                      <br></br>• Corporate actions advisory
                     </p>
                     <Link
                       href="/service-details/portfolio"
@@ -119,12 +124,15 @@ export default function Section4() {
                       href="/service-details/advisory"
                       className="title fw-7"
                     >
-                      Advisory & Financial Planning
+                      Financial Planning - Secure your future with disciplined,
+                      goal-focused plans.
                     </Link>
                     <p className="text">
-                      For DIY investors or families needing expert planning,
-                      retirement projections, insurance and liquidity
-                      strategies, plus ongoing or one-time advisory sessions.
+                      Helping you secure your future with:
+                      <br></br>• Retirement planning
+                      <br></br>• Education funding strategies
+                      <br></br>• Estate and succession planning
+                      <br></br>• Protection and insurance advisory
                     </p>
                     <Link
                       href="/service-details/advisory"
@@ -156,13 +164,15 @@ export default function Section4() {
                       href="/service-details/retirement"
                       className="title fw-7"
                     >
-                      Retirement & Pension Planning
+                      Corporate & Institutional Solutions - Smart investment
+                      frameworks for organizations that last
                     </Link>
                     <p className="text">
-                      For individuals structuring tax-efficient retirement
-                      income with strategies for pension consolidation,
-                      withdrawal planning, and protection against longevity
-                      risks.
+                      Supporting organizations with:
+                      <br></br>• Treasury outsourcing (cash management
+                      solutions)
+                      <br></br>• Investment policy design & implementation
+                      <br></br>• Endowment and reserve fund management
                     </p>
                     <Link
                       href="/service-details/retirement"
@@ -171,115 +181,7 @@ export default function Section4() {
                       Learn More <i className="icon-chevron-right" />
                     </Link>
                   </div>
-                </div>
-
-                {/* Estate & Trust */}
-                <div className="card-service-2 tf-hover">
-                  <div className="image hover-1 hover-14">
-                    <Image
-                      width="0"
-                      height="0"
-                      sizes="100vw"
-                      style={{ width: "100%", height: "auto" }}
-                      src="/images/widget/card-service-8.jpg"
-                      alt="Estate & Trust"
-                      className="lazyload"
-                    />
-                  </div>
-                  <div className="content">
-                    <div className="icon">
-                      <i className="flaticon-human-resources" />
-                    </div>
-                    <Link href="/service-details/estate" className="title fw-7">
-                      Estate & Trust
-                    </Link>
-                    <p className="text">
-                      For families focused on intergenerational wealth transfer
-                      with will & trust coordination, gifting strategies, and
-                      family governance frameworks.
-                    </p>
-                    <Link
-                      href="/service-details/estate"
-                      className="tf-btn-readmore style-3"
-                    >
-                      Learn More <i className="icon-chevron-right" />
-                    </Link>
-                  </div>
-                </div>
-
-                {/* Alternatives */}
-                <div className="card-service-2 tf-hover">
-                  <div className="image hover-1 hover-14">
-                    <Image
-                      width="0"
-                      height="0"
-                      sizes="100vw"
-                      style={{ width: "100%", height: "auto" }}
-                      src="/images/widget/card-service-9.jpg"
-                      alt="Alternative Investments"
-                      className="lazyload"
-                    />
-                  </div>
-                  <div className="content">
-                    <div className="icon">
-                      <i className="flaticon-target-1" />
-                    </div>
-                    <Link
-                      href="/service-details/alternatives"
-                      className="title fw-7"
-                    >
-                      Alternatives (Eligible Investors)
-                    </Link>
-                    <p className="text">
-                      For qualified clients seeking diversification via private
-                      credit, real estate, and alternative investments with full
-                      due diligence and liquidity education.
-                    </p>
-                    <Link
-                      href="/service-details/alternatives"
-                      className="tf-btn-readmore style-3"
-                    >
-                      Learn More <i className="icon-chevron-right" />
-                    </Link>
-                  </div>
-                </div>
-
-                {/* Corporate & Institutional */}
-                <div className="card-service-2 tf-hover">
-                  <div className="image hover-1 hover-14">
-                    <Image
-                      width="0"
-                      height="0"
-                      sizes="100vw"
-                      style={{ width: "100%", height: "auto" }}
-                      src="/images/widget/card-service-10.jpg"
-                      alt="Corporate & Institutional Services"
-                      className="lazyload"
-                    />
-                  </div>
-                  <div className="content">
-                    <div className="icon">
-                      <i className="flaticon-workflow" />
-                    </div>
-                    <Link
-                      href="/service-details/corporate"
-                      className="title fw-7"
-                    >
-                      Corporate & Institutional
-                    </Link>
-                    <p className="text">
-                      For businesses and organizations managing reserves and
-                      benefit plans with treasury solutions, IPS development,
-                      and board-level reporting.
-                    </p>
-                    <Link
-                      href="/service-details/corporate"
-                      className="tf-btn-readmore style-3"
-                    >
-                      Learn More <i className="icon-chevron-right" />
-                    </Link>
-                  </div>
-                </div>
+                </div>               
               </div>
             </div>
           </div>
