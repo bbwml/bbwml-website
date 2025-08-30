@@ -159,7 +159,7 @@ export default function Section8() {
 												</p>
 												<div className="bot">
 													<Link href="/#" className="name fw-7"> Mendoza P. Alfredo </Link>
-													<p className="duty">CEO of Tech Solutions</p>
+													{/* <p className="duty">CEO of Tech Solutions</p> */}
 												</div>
 											</div>
 										</SwiperSlide>

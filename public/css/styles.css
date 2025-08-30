@@ -2639,7 +2639,7 @@ a.hover-text-main-golden:hover {
 }
 
 .footer-inner .list a:hover {
-  color: var(--White);
+  color: var(--Main-yellow-2);
 }
 
 .footer-inner .list a:hover::after {
@@ -9620,9 +9620,6 @@ a.mapboxgl-ctrl-logo {
   transform: translateY(0);
 }
 
-.progress-wrap svg path {
-  fill: none;
-}
 
 .progress-wrap svg.progress-circle path {
   box-sizing: border-box;
