@@ -103,7 +103,7 @@ export default function Footer4() {
 								<div className="inner-center">
 									<div className="footer-inner-wrap s1">
 										<div className="wrap">
-											<h5 className="footer-title">Company</h5>
+											<h5 className="footer-title">B&B</h5>
 											<p className="text">
 												Professional business consulting services to help you achieve your goals and overcome challenges.
 											</p>
@@ -166,7 +166,7 @@ export default function Footer4() {
 										<h5 className="footer-title footer-title-mobile">Quick Link</h5>
 										<ul className="list tf-collapse-content">
 											<li>
-												<Link href="/about">About Company</Link>
+												<Link href="/about-us">About Company</Link>
 											</li>
 											<li>
 												<Link href="/our-service">Our Services</Link>

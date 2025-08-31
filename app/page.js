@@ -4,7 +4,7 @@ export default function Home() {
 
 	return (
 		<>
-			<Layout headerStyle={1} footerStyle={1} hero={1} mainCls="padding-0">
+			<Layout headerStyle={1} hero={1} mainCls="padding-0">
 				<Home1 />
 			</Layout>
 		</>
