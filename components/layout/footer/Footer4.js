@@ -232,8 +232,8 @@ export default function Footer4() {
 						<div className="row">
 							<div className="col-12">
 								<p className="no-copy">
-									Copyright © {new Date().getFullYear()} <span> B&B </span> 
-									, All Rights Reserved.
+									<span>Copyright © {new Date().getFullYear()}  B&B, All Rights Reserved.</span> 
+									
 								</p>
 							</div>
 						</div>

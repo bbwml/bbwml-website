@@ -5156,7 +5156,7 @@ fieldset {
   display: block;
   border-radius: 7px;
   border: 1px solid var(--Border-2);
-  background-color: var(--Main-gray);
+  background-color: var(--Main-golden);
   padding: 7px 9px 7px 15px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
