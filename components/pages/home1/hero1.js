@@ -28,22 +28,8 @@ export default function Hero1() {
                       lineHeight: "1.2", // tighter spacing for large text
                     }}
                   >
-                    Trusted Wealth Management, 
+                    Trusted Wealth Management, <br></br>Trading & Advisory
                     <br />
-                    <span className="animationtext clip">
-                      <TypeAnimation
-                        sequence={["Trading  & Advisory", 1500,]}
-                        wrapper="span"
-                        speed={50}
-                        style={{
-                          display: "inline-block",
-                          color: "var(--Main-yellow)",
-                          fontWeight: "700", // bold for animation text
-                        }}
-                        repeat={Infinity}
-                        className="cd-words-wrapper"
-                      />
-                    </span>
                   </p>
 
                   <p
@@ -90,15 +76,28 @@ export default function Hero1() {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="image-wrap">
-                  <div className="image">
+                <div
+                  className="image-wrap"
+                  style={{
+                    height: "90vh",
+                    display: "flex",
+                    // alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <div
+                    className="image"
+                    style={{
+                      height: "80vh",
+                      width: "100%",
+                      position: "relative",
+                    }}
+                  >
                     <Image
-                      width="0"
-                      height="0"
-                      sizes="100vw"
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       style={{
-                        width: "100%",
-                        height: "auto",
+                        objectFit: "cover",
                         borderRadius: "20px",
                       }}
                       src="/images/section/hero-image.png"
@@ -107,7 +106,7 @@ export default function Hero1() {
                       className="lazyload"
                     />
                   </div>
-                  <div className="wg-curve-text tf-animate__box animate__slow">
+                  {/* <div className="wg-curve-text tf-animate__box animate__slow">
                     <div className="icon">
                       <i className="flaticon-rocket" />
                     </div>
@@ -116,13 +115,13 @@ export default function Hero1() {
                         <div id="circularText" className="text" />
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <SlidingText />
+        {/* <SlidingText /> */}
       </div>
       <ModalVideo
         channel="youtube"

@@ -12,7 +12,7 @@ export default function Header1({
 }) {
   return (
     <>
-      <div className="tf-topbar">
+      {/* <div className="tf-topbar">
         <div className="tf-container w-1780">
           <div className="row">
             <div className="col-lg-12">
@@ -31,7 +31,7 @@ export default function Header1({
                       </div>
                       <p>
                         Phone No :
-                        <Link href="/tel:+2349163465130"> 09163465130</Link>
+                        <Link href="/tel:+2349163465130"> 091634651300000</Link>
                       </p>
                     </li>
                     <li>
@@ -46,7 +46,7 @@ export default function Header1({
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* /.Topbar */}
       {/* Header */}
       <header className="tf-header">

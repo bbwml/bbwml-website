@@ -48,77 +48,37 @@ export default function Footer4() {
 		<>
 
 			<footer className="tf-footer">
-				<div className="footer-top">
-					<div className="tf-container">
-						<div className="row">
-							<div className="col-lg-8 offset-lg-2">
-								<div className="content">
-									<p className="title font-main-2 text-anime-wave">
-										Let's Grow your
-										<span> Business Strategy </span>
-									</p>
-									<p className="text">
-										A well-crafted business strategy is the foundation of any
-										successful enterprise. It serves as a <br /> guiding framework for how a company
-										reaches its goals and achieves sustainable growth
-									</p>
-									<Link href="/contact" className="tf-btn text-anime-style-1">Get
-										Consultation <i className="icon-chevron-right" /></Link>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 				<div className="footer-inner">
-					<div className="inner-top">
-						<div className="tf-container">
-							{/* <div className="row">
-								<div className="col-lg-4">
-									<div className="flex item-center h-100">
-										<p className="title font-main-2 fw-7">
-											Newsletter
-											<span className="fw-3"> Subscribe </span>
-										</p>
-									</div>
-								</div>
-								<div className="col-lg-7 offset-lg-1">
-									<div className="subscribe-wrap">
-										<form action="#" id="form-sub" className="form-sub style-2">
-											<fieldset>
-												<input type="text" placeholder="Email Address" required />
-											</fieldset>
-										</form>
-										<button form="form-sub" type="submit" className="tf-btn style-2">
-											Subscribe
-											<i className="icon-chevron-right" />
-										</button>
-									</div>
-								</div>
-							</div> */}
-						</div>
-					</div>
 					<div className="tf-container">
 						<div className="row">
 							<div className="col-lg-12">
 								<div className="inner-center">
 									<div className="footer-inner-wrap s1">
-										<div className="wrap">
-											<h5 className="footer-title">B&B</h5>
-											<p className="text">
-												Professional business consulting services to help you achieve your goals and overcome challenges.
-											</p>
-										</div>
-										<div className="logo-site">
-											<Link href="/">
-												<Image
-													width="0"
-													height="0"
-													sizes="100vw"
-													style={{ width: "100%", height: "auto" }}
-													id="logo_footer" data-retina="./images/logo/logo@2x.png" src="/images/logo/logo.png" alt="" />
-											</Link>
-										</div>
-									</div>
+	<div className="wrap">
+		<h5 className="footer-title">B&B</h5>
+		<p className="text">
+			Professional business consulting services to help you achieve your goals and overcome challenges.
+		</p>
+	</div>
+	<div className="logo-site">
+		<Link href="/">
+			<Image
+				width="0"
+				height="0"
+				sizes="100vw"
+				style={{ 
+					width: "240px", 
+					height: "auto",
+					maxWidth: "250px" // Add max width for larger screens
+				}}
+				id="logo_footer" 
+				data-retina="./images/logo/logo@2x.png" 
+				src="/images/logo/logo.png" 
+				alt="B&B Wealth Management Logo" 
+			/>
+		</Link>
+	</div>
+</div>
 									<div className="footer-inner-wrap s1">
 										<div className={`wrap footer-col-block  ${isAccordion1 === 1 ? 'open' : ''}`}>
 											<h5 className="footer-title footer-title-desktop">Office Address</h5>

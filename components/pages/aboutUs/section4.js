@@ -22,7 +22,7 @@ export default function Section4() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4">
+              {/* <div className="col-lg-4">
                 <div className="content-right">
                   <div className="wg-curve-text tf-animate__box-2 animate__slow">
                     <div className="icon">
@@ -35,7 +35,7 @@ export default function Section4() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
