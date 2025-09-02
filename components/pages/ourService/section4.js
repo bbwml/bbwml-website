@@ -35,7 +35,7 @@ export default function Section4() {
                       className="lazyload"
                     />
                   </div>
-                  <div className="content">
+                  <div className="content equities-trading-card">
                     <div className="icon">
                       <i className="flaticon-return-of-investment" />
                     </div>
@@ -46,19 +46,19 @@ export default function Section4() {
                       Portfolio Management - Tailored strategies to protect and
                       grow your wealth.
                     </Link>
-                    <p className="text">
+  <p className="f-text-white">
                       Tailored investment strategies across:
                       <br></br>• FGN Bonds & Treasury Bills
                       <br></br>• Money Market Instruments
                       <br></br>• Eurobonds
                       <br></br>• Equities (NGX-listed shares)
                     </p>
-                    <Link
+                    {/* <Link
                       href="/service-details/private-wealth"
                       className="tf-btn-readmore style-3"
                     >
                       Learn More <i className="icon-chevron-right" />
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
 
@@ -75,7 +75,7 @@ export default function Section4() {
                       className="lazyload"
                     />
                   </div>
-                  <div className="content">
+                  <div className="content equities-trading-card">
                     <div className="icon">
                       <i className="flaticon-data-management" />
                     </div>
@@ -84,9 +84,9 @@ export default function Section4() {
                       className="title fw-7"
                     >
                       Equities & Fixed Income Trading - Direct access to
-                      Nigeria’s markets with global expertise
+                      Nigeria's markets with global expertise
                     </Link>
-                    <p className="text">
+                    <p className="f-text-white">
                       Direct access to:
                       <br></br>• NGX-listed shares and securities
                       <br></br>• Initial Public Offerings (IPOs) & Rights Issues
@@ -94,12 +94,12 @@ export default function Section4() {
                       Sukuks)
                       <br></br>• Corporate actions advisory
                     </p>
-                    <Link
+                    {/* <Link
                       href="/service-details/portfolio"
                       className="tf-btn-readmore style-3"
                     >
                       Learn More <i className="icon-chevron-right" />
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
 
@@ -116,7 +116,7 @@ export default function Section4() {
                       className="lazyload"
                     />
                   </div>
-                  <div className="content">
+                  <div className="content equities-trading-card">
                     <div className="icon">
                       <i className="flaticon-solution" />
                     </div>
@@ -127,19 +127,19 @@ export default function Section4() {
                       Financial Planning - Secure your future with disciplined,
                       goal-focused plans.
                     </Link>
-                    <p className="text">
+  <p className="f-text-white">
                       Helping you secure your future with:
                       <br></br>• Retirement planning
                       <br></br>• Education funding strategies
                       <br></br>• Estate and succession planning
                       <br></br>• Protection and insurance advisory
                     </p>
-                    <Link
+                    {/* <Link
                       href="/service-details/advisory"
                       className="tf-btn-readmore style-3"
                     >
                       Learn More <i className="icon-chevron-right" />
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
 
@@ -156,7 +156,7 @@ export default function Section4() {
                       className="lazyload"
                     />
                   </div>
-                  <div className="content">
+                  <div className="content equities-trading-card">
                     <div className="icon">
                       <i className="flaticon-team" />
                     </div>
@@ -167,21 +167,22 @@ export default function Section4() {
                       Corporate & Institutional Solutions - Smart investment
                       frameworks for organizations that last
                     </Link>
-                    <p className="text">
+  <p className="f-text-white">
                       Supporting organizations with:
                       <br></br>• Treasury outsourcing (cash management
                       solutions)
                       <br></br>• Investment policy design & implementation
                       <br></br>• Endowment and reserve fund management
                     </p>
-                    <Link
+    
+                    {/* <Link
                       href="/service-details/retirement"
-                      className="tf-btn-readmore style-3"
+                      className="tf-btn-readmore style-3 pt-2"
                     >
                       Learn More <i className="icon-chevron-right" />
-                    </Link>
+                    </Link> */}
                   </div>
-                </div>               
+                </div>
               </div>
             </div>
           </div>

@@ -1016,7 +1016,7 @@ a.hover-text-main-golden:hover {
 }
 
 .text-white {
-  color: var(--Title);
+  /* color: var(--Title); */
 }
 
 /*------------ Components ---------------- */
@@ -5578,7 +5578,18 @@ a.mapboxgl-ctrl-logo {
     opacity: 1;
   }
 }
+.equities-trading-card:hover .title,
+.equities-trading-card:hover .f-text-white,
+.equities-trading-card:hover .tf-btn-readmore {
+  color: white !important;
+}
 
+/* Add smooth transition for all text elements */
+.equities-trading-card .title,
+.equities-trading-card .f-text-white,
+.equities-trading-card .tf-btn-readmore {
+  transition: color 0.3s ease;
+}
 /*------------ hover ---------------- */
 .tf-hover .hover-1 {
   overflow: hidden;
