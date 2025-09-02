@@ -51,7 +51,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
               </div>
             </div>
           </div>
-          <div className="tf-marquee slider-saylo mt-65">
+          {/* <div className="tf-marquee slider-saylo mt-65">
             <div className="wrap-marquee">
               {Array(10)
                 .fill("B&B Wealth Management")
@@ -61,7 +61,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
                   </div>
                 ))}
             </div>
-          </div>
+          </div> */}
         </div>
       )}
 
@@ -121,7 +121,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
               </div>
             </div>
           </div>
-          <div className="tf-marquee slider-saylo">
+          {/* <div className="tf-marquee slider-saylo">
             <div className="wrap-marquee">
               <div className="marquee-item">
                 <p className="font-main-2 text">B&B Wealth Management</p>
@@ -154,7 +154,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
                 <p className="font-main-2 text">B&B Wealth Management</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       )}
       {breadcrumbAlt === 2 && (
@@ -195,7 +195,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
               </div>
             </div>
           </div>
-          <div className="tf-marquee slider-saylo">
+          {/* <div className="tf-marquee slider-saylo">
             <div className="wrap-marquee">
               <div className="marquee-item">
                 <p className="font-main-2 text">B&B Wealth Management</p>
@@ -228,7 +228,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
                 <p className="font-main-2 text">B&B Wealth Management</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       )}
     </>
