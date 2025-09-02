@@ -45,7 +45,7 @@ export default function Section8() {
 		<>
 
 			<section className="s-our-testimonial ">
-				<div className="tf-marquee slider-saylo style-2 mb-50">
+				{/* <div className="tf-marquee slider-saylo style-2 mb-50">
 					<div className="wrap-marquee">
 						<div className="marquee-item">
 							<p className="font-main-2 text">
@@ -98,7 +98,7 @@ export default function Section8() {
 							</p>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="tf-container">
 					<div className="row">
 						<div className="col-lg-12">
