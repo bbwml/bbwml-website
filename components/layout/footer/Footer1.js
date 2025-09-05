@@ -198,13 +198,13 @@ export default function Footer1() {
 								<div className="policy-list">
 									<ul className="list">
 										<li>
-											<Link href="/faqs"> Teams &amp; Conditions </Link>
+											<Link href="/terms"> Terms &amp; Conditions </Link>
 										</li>
 										<li>
 											<span className="dot" />
 										</li>
 										<li>
-											<Link href="/faqs"> Privacy Policy </Link>
+											<Link href="/privacy"> Privacy Policy </Link>
 										</li>
 									</ul>
 								</div>
