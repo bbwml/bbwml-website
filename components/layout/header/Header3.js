@@ -55,74 +55,76 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, handle
 								<div className={isMobileMenu ? "mobile-nav-wrap active" : "	mobile-nav-wrap"}>
 									<div className="overlay-mobile-nav" onClick={handleMobileMenu} />
 									<div className="inner-mobile-nav overflow-y-auto">
-										<div className="top">
-											<div className="logo">
-												<Link href="/" rel="home" className="main-logo">
-													<Image
-														width="139"
-														height="39"
-														id="mobile-logo_header" alt="" src="/images/logo/logo-4.png" />
-												</Link>
-												<div className="mobile-nav-close" onClick={handleMobileMenu}>
-													<i className="icon-xmark" />
-												</div>
-											</div>
+                            <div className="top">
+                                <div className="logo">
+                                    <Link href="/" rel="home" className="main-logo">
+                                        <Image
+                                            width="220"
+                                            height="48"
+                                            id="mobile-logo_header" alt="" src="/images/logo/logo.png" />
+                                    </Link>
+                                    <div className="mobile-nav-close" onClick={handleMobileMenu}>
+                                        <i className="icon-xmark" />
+                                    </div>
+                                </div>
 											<nav id="mobile-main-nav" className="mobile-main-nav">
 												<MobileMenu />
 											</nav>
 										</div>
-										<div className="bottom">
-											<div className="wrap">
-												<p className="title">
-													Contact Us
-												</p>
-												<ul className="contact-list mb-20">
-													<li>
-														<p>
-															Address: <Link href="https://www.google.com/maps?q=55East10thStreet,NewYork,NY10003,UnitedStates" target="_blank">
-																55 East 10th Street, New York, NY 10003, United States
-															</Link>
-														</p>
-													</li>
-													<li>
-														<p>
-															Email: <Link href="mailto:themesflat@gmail.com">
-																themesflat@gmail.com
-															</Link>
-														</p>
-													</li>
-													<li>
-														<p>
-															Call: <Link href="/tel:+00012345688">
-																+000 (123) 456 88
-															</Link>
-														</p>
-													</li>
-												</ul>
-												<ul className="social-list">
-													<li>
-														<Link href="/#">
-															<i className="icon-facebook" />
-														</Link>
-													</li>
-													<li>
-														<Link href="/#">
-															<i className="icon-twitter" />
-														</Link>
-													</li>
-													<li>
-														<Link href="/#">
-															<i className="icon-linkedin" />
-														</Link>
-													</li>
-													<li>
-														<Link href="/#">
-															<i className="icon-youtube" />
-														</Link>
-													</li>
-												</ul>
-											</div>
-										</div>
+                                {/*
+                                <div className="bottom">
+                                    <div className="wrap">
+                                        <p className="title">
+                                            Contact Us
+                                        </p>
+                                        <ul className="contact-list mb-20">
+                                            <li>
+                                                <p>
+                                                    Address: <Link href="https://www.google.com/maps?q=55East10thStreet,NewYork,NY10003,UnitedStates" target="_blank">
+                                                        55 East 10th Street, New York, NY 10003, United States
+                                                    </Link>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Email: <Link href="mailto:themesflat@gmail.com">
+                                                        themesflat@gmail.com
+                                                    </Link>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Call: <Link href="/tel:+00012345688">
+                                                        +000 (123) 456 88
+                                                    </Link>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                        <ul className="social-list">
+                                            <li>
+                                                <Link href="/#">
+                                                    <i className="icon-facebook" />
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/#">
+                                                    <i className="icon-twitter" />
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/#">
+                                                    <i className="icon-linkedin" />
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/#">
+                                                    <i className="icon-youtube" />
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                */}
 									</div>
 								</div>
 							</div>

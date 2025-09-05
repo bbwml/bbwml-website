@@ -78,7 +78,7 @@ export default function Header1({
                     Get In Touch
                     <i className="icon-chevron-right" />
                   </Link>
-                  {/* <div
+                  <div
                     className="union mobile-button"
                     onClick={handleMobileMenu}
                   >
@@ -86,14 +86,6 @@ export default function Header1({
                     <span className="dot" />
                     <span className="dot" />
                   </div>
-                  <div
-                    className="union btn-open-welcome"
-                    onClick={handleWelcomeBox}
-                  >
-                    <span className="dot" />
-                    <span className="dot" />
-                    <span className="dot" />
-                  </div> */}
                 </div>
               </div>
               <div
@@ -110,13 +102,13 @@ export default function Header1({
                     <div className="logo">
                       <Link href="/" rel="home" className="main-logo">
                         <Image
-                          width="139"
-                          height="39"
+                          width="220"
+                          height="48"
                           // sizes="(max-width: 768px) auto, 80vw"
                           // style={{ width: "100%", height: "auto" }}
                           id="mobile-logo_header"
                           alt=""
-                          src="/images/logo/logo-4.png"
+                          src="/images/logo/logo.png"
                         />
                       </Link>
                       <div
@@ -130,36 +122,26 @@ export default function Header1({
                       <MobileMenu />
                     </nav>
                   </div>
+                  {/*
                   <div className="bottom">
                     <div className="wrap">
                       <p className="title">Contact Us</p>
                       <ul className="contact-list mb-20">
                         <li>
                           <p>
-                            Address:{" "}
-                            <Link
-                              href="https://www.google.com/maps?q=55East10thStreet,NewYork,NY10003,UnitedStates"
-                              target="_blank"
-                            >
-                              55 East 10th Street, New York, NY 10003, United
-                              States
+                            Address: <Link href="https://www.google.com/maps?q=55East10thStreet,NewYork,NY10003,UnitedStates" target="_blank">
+                              55 East 10th Street, New York, NY 10003, United States
                             </Link>
                           </p>
                         </li>
                         <li>
                           <p>
-                            Email:{" "}
-                            <Link href="mailto:themesflat@gmail.com">
-                              themesflat@gmail.com
-                            </Link>
+                            Email: <Link href="mailto:themesflat@gmail.com">themesflat@gmail.com</Link>
                           </p>
                         </li>
                         <li>
                           <p>
-                            Call:{" "}
-                            <Link href="/tel:+2349163465130">
-                              09163465130
-                            </Link>
+                            Call: <Link href="/tel:+2349163465130">09163465130</Link>
                           </p>
                         </li>
                       </ul>
@@ -187,6 +169,7 @@ export default function Header1({
                       </ul>
                     </div>
                   </div>
+                  */}
                 </div>
               </div>
             </div>

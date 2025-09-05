@@ -1,0 +1,12 @@
+/* Responsive hero title styles */
+.hero-title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.2;
+}
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+}
