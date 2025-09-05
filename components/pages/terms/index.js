@@ -131,40 +131,7 @@ export default function TermsPageContent() {
               <Section1 />
             </div>
           </div>
-          <div className="col-lg-4">
-            <div className="tf-sidebar">
-              <div className="sb-item sb-contact mb-30">
-                <div className="sb-content">
-                  <p className="s-title style-2 mb-30 text-anime-wave">
-                    Need Clarification?
-                    <br />
-                    <span>Contact Legal Team</span>
-                  </p>
-                  <form action="#" className="form-contact bg-transparent style-3">
-                    <div className="cols mb-10">
-                      <fieldset>
-                        <input type="text" placeholder="Full Name" required />
-                      </fieldset>
-                    </div>
-                    <div className="cols mb-10">
-                      <fieldset>
-                        <input type="email" placeholder="Email" required />
-                      </fieldset>
-                    </div>
-                    <div className="cols mb-10">
-                      <fieldset>
-                        <textarea className="h-100px" placeholder="Your question" />
-                      </fieldset>
-                    </div>
-                    <button type="submit" className="tf-btn full text-anime-style-1">
-                      Send Message
-                      <i className="icon-chevron-right" />
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* Sidebar contact card removed per request */}
         </div>
       </div>
     </section>
