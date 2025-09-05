@@ -166,10 +166,10 @@ export default function Footer2() {
 								<div className="policy-list">
 									<ul className="list">
 										<li>
-											<Link href="/faqs"> Privacy Policy </Link>
+											<Link href="/privacy"> Privacy Policy </Link>
 										</li>
 										<li>
-											<Link href="/faqs"> Terms and Conditions </Link>
+											<Link href="/terms"> Terms and Conditions </Link>
 										</li>
 										<li>
 											<Link href="/faqs"> Support </Link>

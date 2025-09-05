@@ -9750,6 +9750,12 @@ a.mapboxgl-ctrl-logo {
   letter-spacing: -0.02em;
 }
 
+/* Legal hub theming */
+.legal-theme, .legal-theme p, .legal-theme .text,
+.legal-theme li, .legal-theme a {
+  color: var(--Black);
+}
+
 /* Hero main title extracted from inline styles in hero1.js */
 .hero-main-title {
   font-weight: 700;
