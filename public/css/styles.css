@@ -9756,6 +9756,25 @@ a.mapboxgl-ctrl-logo {
   color: var(--Black);
 }
 
+/* Ensure accordion headings and content are black within Legal Hub */
+.legal-theme .tf-accordion.style-4 .accordion-button,
+.legal-theme .tf-accordion.style-4 .accordion-button::after {
+  color: var(--Black);
+}
+.legal-theme .tf-accordion.style-4 .accordion-body {
+  color: var(--Black);
+}
+
+/* Contact cards layout inside Legal Hub: 2 per row on large screens, 1 per row on mobile */
+.legal-theme .grid-layout-3 {
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 991px) {
+  .legal-theme .grid-layout-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Hero main title extracted from inline styles in hero1.js */
 .hero-main-title {
   font-weight: 700;
