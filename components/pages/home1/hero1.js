@@ -21,12 +21,7 @@ export default function Hero1() {
                     B&B Wealth Management
                   </p>
                   <p
-                    className="text-dark mb-50 text-fs-70"
-                    style={{
-                      fontWeight: "700", // make everything bold
-                      fontSize: "44px", // bigger text (adjust as needed)
-                      lineHeight: "1.2", // tighter spacing for large text
-                    }}
+                    className="text-dark mb-50 text-fs-70 hero-main-title"
                   >
                     Trusted Wealth Management, <br></br>Trading & Advisory
                     <br />
