@@ -22,7 +22,7 @@ export default function Section2() {
                     <li>
                       <p className="font-main-2 text-black">Who We Are</p>
                       <p className="text">
-                        B & B Wealth Management is a SEC-licensed Nigerian
+                        B&B Wealth Management is a SEC-licensed Nigerian
                         Investment and Wealth Management firm. We provide
                         professional wealth management, equities trading, and
                         investment advisory services tailored to the unique

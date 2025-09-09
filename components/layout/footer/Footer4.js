@@ -62,20 +62,20 @@ export default function Footer4() {
 	</div>
 	<div className="logo-site">
 		<Link href="/">
-			<Image
-				width="0"
-				height="0"
-				sizes="100vw"
-				style={{ 
-					width: "240px", 
-					height: "auto",
-					maxWidth: "250px" // Add max width for larger screens
-				}}
-				id="logo_footer" 
-				data-retina="./images/logo/logo@2x.png" 
-				src="/images/logo/logo.png" 
-				alt="B&B Wealth Management Logo" 
-			/>
+					<Image
+						width="0"
+						height="0"
+						sizes="100vw"
+						style={{ 
+							width: "320px", 
+							height: "auto",
+							maxWidth: "360px"
+						}}
+						id="logo_footer" 
+						data-retina="./images/logo/logo@2x.png" 
+						src="/images/logo/logo.png" 
+						alt="B&B Wealth Management Logo" 
+					/>
 		</Link>
 	</div>
 </div>
@@ -104,21 +104,19 @@ export default function Footer4() {
 										<h5 className="footer-title footer-title-desktop">Services</h5>
 										<h5 className="footer-title footer-title-mobile" onClick={() => handleAccordion3(1)}>Services</h5>
 										<ul className="list tf-collapse-content" style={{ display: getDisplayStyle3(1) }}>
-											<li>
-												<Link href="/our-service">Business Consulting</Link>
+											<li className='mb-4' >
+												Portfolio Management
 											</li>
-											<li>
-												<Link href="/our-service">Strategic Planning</Link>
+										<li className='mb-4' >
+												Equities and Fixed income trading
 											</li>
-											<li>
-												<Link href="/our-service">Financial Analysis</Link>
+											<li className='mb-4'>
+												Financial Planning
 											</li>
-											<li>
-												<Link href="/our-service">Market Research</Link>
+										<li className='mb-4' >
+												Corporate and Institutional Solutions
 											</li>
-											<li>
-												<Link href="/our-service">Management Consulting</Link>
-											</li>
+										
 										</ul>
 									</div>
 									<div className="footer-inner-wrap footer-col-block">
@@ -143,11 +141,9 @@ export default function Footer4() {
 									</Link>
 									<div className="policy-list">
 										<ul className="list">
+											
 											<li>
-												<Link href="/privacy"> Privacy Policy </Link>
-											</li>
-											<li>
-												<Link href="/terms"> Terms and Conditions </Link>
+												<Link href="/terms">Privacy Policy and Terms of Use </Link>
 											</li>
 											<li>
 												<Link href="/contact"> Support </Link>

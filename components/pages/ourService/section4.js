@@ -16,7 +16,7 @@ export default function Section4() {
                   Our Services
                 </p>
                 <p className="s-title text-center text-anime-wave">
-                  At B & B Wealth, we design solutions that align with your
+                  At B&B Wealth, we design solutions that align with your
                   <span> financial goals and risk appetite.</span>
                 </p>
               </div>
@@ -46,7 +46,7 @@ export default function Section4() {
                       Portfolio Management - Tailored strategies to protect and
                       grow your wealth.
                     </Link>
-  <p className="f-text-white">
+                    <p className="f-text-white">
                       Tailored investment strategies across:
                       <br></br>• FGN Bonds & Treasury Bills
                       <br></br>• Money Market Instruments
@@ -127,7 +127,7 @@ export default function Section4() {
                       Financial Planning - Secure your future with disciplined,
                       goal-focused plans.
                     </Link>
-  <p className="f-text-white">
+                    <p className="f-text-white">
                       Helping you secure your future with:
                       <br></br>• Retirement planning
                       <br></br>• Education funding strategies
@@ -167,14 +167,14 @@ export default function Section4() {
                       Corporate & Institutional Solutions - Smart investment
                       frameworks for organizations that last
                     </Link>
-  <p className="f-text-white">
+                    <p className="f-text-white">
                       Supporting organizations with:
                       <br></br>• Treasury outsourcing (cash management
                       solutions)
                       <br></br>• Investment policy design & implementation
                       <br></br>• Endowment and reserve fund management
                     </p>
-    
+
                     {/* <Link
                       href="/service-details/retirement"
                       className="tf-btn-readmore style-3 pt-2"

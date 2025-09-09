@@ -10,7 +10,7 @@ export default function Section1() {
               <div className="heading mb-70">
                 <p className="s-sub-title mb-15 justify-center">
                   <i className="icon-angles-right moveLeftToRight" />
-                Why Choose B & B Wealth
+                  Why Choose B&B Wealth
                 </p>
                 <p className="s-title text-center text-anime-style-2">
                   When you partner with us, you gain more than a wealth manager—
@@ -84,7 +84,7 @@ export default function Section1() {
                     <i className="flaticon-team" />
                   </div>
                   <Link href="/service-details/estate" className="title">
-                   Transparent Fees, No Hidden Costs
+                    Transparent Fees, No Hidden Costs
                   </Link>
                   <span className="line mb-30" />
                   <p className="text">
@@ -111,7 +111,7 @@ export default function Section1() {
                     <i className="flaticon-team" />
                   </div>
                   <Link href="/service-details/estate" className="title">
-                   Innovative Research & Market Insights
+                    Innovative Research & Market Insights
                   </Link>
                   <span className="line mb-30" />
                   <p className="text">
@@ -133,7 +133,7 @@ export default function Section1() {
                     </Link>
                   </div>
                 </div>
-                 <div className="box-icon style-8">
+                <div className="box-icon style-8">
                   <div className="icon">
                     <i className="flaticon-data-management" />
                   </div>
