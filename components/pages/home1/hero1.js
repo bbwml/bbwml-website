@@ -20,10 +20,9 @@ export default function Hero1() {
                     <i className="icon-angles-right moveLeftToRight" />
                     B&B Wealth Management
                   </p>
-                  <p
-                    className="text-dark mb-50 text-fs-70 hero-main-title"
-                  >
+                  <p className="text-dark mb-50 text-fs-70 hero-main-title">
                     Trusted Wealth Management, <br></br>Trading & Advisory
+                    Company
                     <br />
                   </p>
 
@@ -42,7 +41,7 @@ export default function Hero1() {
                   <span className="line mb-50" />
 
                   <p className="text font-main-2 fw-5 mb-40">
-                    At B & B Wealth Management, we help individuals, families,
+                    At B&B Wealth Management, we help individuals, families,
                     corporates, and institutions preserve, grow, and transfer
                     wealth with confidence. With decades of combined experience,
                     our team delivers trusted investment and trading solutions

@@ -1662,12 +1662,12 @@ a.hover-text-main-golden:hover {
 }
 
 .header-inner .logo-site img {
-  max-width: 270px;
+  max-width: 300px;
 }
 
 @media screen and (max-width: 1400px) {
   .header-inner .logo-site img {
-    max-width: 220px;
+    max-width: 240px;
   }
 }
 
@@ -2022,7 +2022,7 @@ a.hover-text-main-golden:hover {
 }
 
 .mobile-nav-wrap .inner-mobile-nav .logo img {
-  max-width: 220px;
+  max-width: 240px;
 }
 
 .mobile-nav-wrap .menu-item-has-children-mobile {
@@ -2213,13 +2213,13 @@ a.hover-text-main-golden:hover {
 /*------------ footer ---------------- */
 .tf-footer {
   padding-top: 100px;
-  background-color: var(--Main-yellow-2);
+  background-color: var(--Main-black);
   position: relative;
   overflow: hidden;
 }
 
 .tf-footer .logo-site img {
-  max-width: 139px;
+  max-width: 360px;
   width: 100%;
 }
 
@@ -2739,7 +2739,7 @@ a.hover-text-main-golden:hover {
 }
 
 .footer-bottom p span {
-  color: var(--White);
+  color: black;
   font-weight: 600;
 }
 
@@ -4329,7 +4329,7 @@ fieldset {
 }
 
 .tf-page-title .breadcrums a.current {
-  color: var(--Main-yellow);
+  color: var(--Main-black);
   cursor: default;
 }
 
@@ -6083,6 +6083,12 @@ a.mapboxgl-ctrl-logo {
 
 .card-service-2.style-2 .content {
   padding: 42px 40px 43px 40px;
+}
+
+/* Pricing section: make text white on card hover */
+.s-pricing .pricing-card:hover .title,
+.s-pricing .pricing-card:hover .text {
+  color: var(--White);
 }
 
 .box-project {

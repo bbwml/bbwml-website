@@ -58,8 +58,8 @@ export default function Header1({
                   <div className="logo-site">
                     <Link href="/">
                       <Image
-                        width="270"
-                        height="59"
+                        width="300"
+                        height="66"
                         id="logo_header"
                         src="/images/logo/logo.png"
                         data-retina="./images/logo/logo.png"
@@ -102,8 +102,8 @@ export default function Header1({
                     <div className="logo">
                       <Link href="/" rel="home" className="main-logo">
                         <Image
-                          width="220"
-                          height="48"
+                          width="240"
+                          height="52"
                           // sizes="(max-width: 768px) auto, 80vw"
                           // style={{ width: "100%", height: "auto" }}
                           id="mobile-logo_header"
