@@ -13,6 +13,7 @@ export default function MobileMenu() {
     { title: "About", path: "/about-us" },
     { title: "Services", path: "/our-service" },
     { title: "Insights", path: "/insights" },
+    { title: "Account Opening", path: "/account-opening" },
     { title: "Contact", path: "/contact" },
   ]
 

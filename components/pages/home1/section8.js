@@ -137,11 +137,11 @@ export default function Section8() {
 												<p className="say font-main-2 mb-30 text-clamp-5 ">
 													"Working with B&B was a game changer for our company.
 													Their
-													team quickly identif inefficiencies in our operations and
+													team quickly identified inefficiencies in our operations and
 													helped us streamline,"
 												</p>
 												<div className="bot">
-													<Link href="/#" className="name fw-7"> Mendoza P. Alfredo </Link>
+													<Link href="/#" className="name fw-7"> Michael O. Afeez </Link>
 													{/* <p className="duty">CEO of Tech Solutions</p> */}
 												</div>
 											</div>
@@ -154,11 +154,11 @@ export default function Section8() {
 												<p className="say font-main-2 mb-30 text-clamp-5 ">
 													"Working with saylo was a game changer for our company.
 													Their
-													team quickly identif inefficiencies in our operations and
+													team quickly identified inefficiencies in our operations and
 													helped us streamline,"
 												</p>
 												<div className="bot">
-													<Link href="/#" className="name fw-7"> Mendoza P. Alfredo </Link>
+													<Link href="/#" className="name fw-7"> Michael O. Afeez </Link>
 													{/* <p className="duty">CEO of Tech Solutions</p> */}
 												</div>
 											</div>

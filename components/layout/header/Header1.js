@@ -58,7 +58,7 @@ export default function Header1({
                   <div className="logo-site">
                     <Link href="/">
                       <Image
-                        width="300"
+                        width="380"
                         height="66"
                         id="logo_header"
                         src="/images/logo/logo.png"
