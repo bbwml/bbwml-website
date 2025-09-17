@@ -1459,7 +1459,7 @@ a.hover-text-main-golden:hover {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--Border);
-  height: 80px;
+  height: 100px;
 }
 
 .header-inner .tf-btn {
@@ -1662,7 +1662,9 @@ a.hover-text-main-golden:hover {
 }
 
 .header-inner .logo-site img {
-  max-width: 300px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  /* max-width: 300px; */
 }
 
 @media screen and (max-width: 1400px) {

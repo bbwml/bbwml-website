@@ -105,7 +105,7 @@ export default function Section6() {
 															src="/images/avatar/testimonial-author-1.jpg" alt="" />
 													</div>
 													<div className="infor">
-														<Link href="/#" className="name fw-7"> Mendoza P. Alfredo </Link>
+														<Link href="/#" className="name fw-7"> Michael O. Afeez </Link>
 														<p className="duty">CEO of Tech Solutions</p>
 													</div>
 												</div>
