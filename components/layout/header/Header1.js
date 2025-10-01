@@ -9,6 +9,7 @@ export default function Header1({
   handleMobileMenu,
   handleWelcomeBox,
   isWelcomeBox,
+  onOpenAccount,
 }) {
   return (
     <>
@@ -74,6 +75,10 @@ export default function Header1({
                   </nav>
                 </div>
                 <div className="header-right">
+                  <button onClick={onOpenAccount} className="tf-btn small type-2" style={{marginRight: 12}}>
+                    Open Account
+                    <i className="icon-chevron-right" />
+                  </button>
                   <Link href="/contact" className="tf-btn small">
                     Get In Touch
                     <i className="icon-chevron-right" />
