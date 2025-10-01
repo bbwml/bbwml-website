@@ -64,7 +64,7 @@ export default function Section5() {
 													operations and helped streamline,"
 												</p>
 												<div className="bot">
-													<Link href="/#" className="name fw-7"> Mendoza P. Alfredo </Link>
+													<Link href="/#" className="name fw-7"> Michael O. Afeez </Link>
 													<p className="duty">CEO of Tech Solutions</p>
 												</div>
 											</div>
@@ -80,7 +80,7 @@ export default function Section5() {
 													operations and helped streamline,"
 												</p>
 												<div className="bot">
-													<Link href="/#" className="name fw-7"> Mendoza P. Alfredo </Link>
+													<Link href="/#" className="name fw-7"> Michael O. Afeez </Link>
 													<p className="duty">CEO of Tech Solutions</p>
 												</div>
 											</div>

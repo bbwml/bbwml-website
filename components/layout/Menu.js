@@ -34,6 +34,11 @@ export default function Menu() {
           <span>Insights</span>
         </Link>
       </li>
+      <li className={`item ${isActive("/account-opening")}`}>
+        <Link href="/account-opening">
+          <span>Account Opening</span>
+        </Link>
+      </li>
       <li className={`item ${isActive("/contact")}`}>
         <Link href="/contact">
           <span>Contact</span>
