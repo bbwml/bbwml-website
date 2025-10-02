@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
-export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handleWelcomeBox, isWelcomeBox }) {
+export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handleWelcomeBox, isWelcomeBox, onOpenAccount }) {
 	return (
 		<>
 			<div className="tf-topbar style-2">
@@ -71,6 +71,10 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, handle
 									</nav>
 								</div>
 								<div className="header-right">
+									<button onClick={onOpenAccount} className="tf-btn style-9 small type-2" style={{marginRight: 12}}>
+										Open Account
+										<i className="icon-chevron-right" />
+									</button>
 									<Link href="/our-service" className="tf-btn style-9 small">
 										Get In Touch
 										<i className="icon-chevron-right" />

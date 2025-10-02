@@ -9,6 +9,7 @@ export default function Header1({
   handleMobileMenu,
   handleWelcomeBox,
   isWelcomeBox,
+  onOpenAccount,
 }) {
   return (
     <>

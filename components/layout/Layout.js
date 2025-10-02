@@ -18,6 +18,7 @@ import Footer1 from './footer/Footer1'
 import Footer2 from './footer/Footer2'
 import Footer3 from "./footer/Footer3"
 import Footer4 from "./footer/Footer4"
+import OpenAccountModal from "./OpenAccountModal"
 import Header1 from "./header/Header1"
 import Header2 from './header/Header2'
 import Header3 from "./header/Header3"
@@ -38,6 +39,17 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 	const handleWelcomeBox = () => {
 		setWelcomeBox(!isWelcomeBox)
 		!isWelcomeBox ? document.body.classList.add("no-scroll") : document.body.classList.remove("no-scroll");
+	}
+
+	// Open Account modal
+	const [isAccountModalOpen, setAccountModalOpen] = useState(false)
+	const openAccountModal = () => {
+		setAccountModalOpen(true)
+		document.body.classList.add("no-scroll")
+	}
+	const closeAccountModal = () => {
+		setAccountModalOpen(false)
+		document.body.classList.remove("no-scroll")
 	}
 
 	useEffect(() => {
@@ -64,12 +76,13 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 		<><div id="top" />
 			<AddClassBody />
 			<div id="wrapper">
-				{!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} />}
-				{headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} /> : null}
-				{headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} /> : null}
-				{headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} /> : null}
-				{headerStyle == 4 ? <Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} /> : null}
+				{!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} onOpenAccount={openAccountModal} />}
+				{headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} onOpenAccount={openAccountModal} /> : null}
+				{headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} onOpenAccount={openAccountModal} /> : null}
+				{headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} onOpenAccount={openAccountModal} /> : null}
+				{headerStyle == 4 ? <Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} onOpenAccount={openAccountModal} /> : null}
 				<BoxWelcome isWelcomeBox={isWelcomeBox} handleWelcomeBox={handleWelcomeBox} />
+				<OpenAccountModal isOpen={isAccountModalOpen} onClose={closeAccountModal} />
 				{hero == 1 && <Hero1 />}
 				{hero == 2 && <Hero2 />}
 				{hero == 3 && <Hero3 />}
