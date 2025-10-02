@@ -99,6 +99,16 @@ button {
             border: 1px solid var(--Bg-2);
             background-color: var(--Bg-2);
         }
+        &.back-accent {
+            color: var(--Main-green);
+
+            &:disabled {
+                color: var(--Border-2);
+            }
+        }
+        &.cf-accent {
+            color: var(--Main-green);
+        }
     }
     &.style-10 {
         color: var(--White);
