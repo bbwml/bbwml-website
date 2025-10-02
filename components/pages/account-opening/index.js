@@ -17,10 +17,35 @@ const AccountOpening = () => {
                                 At B&B Wealth,
                                 <span> you can choose from the two account opening options below:</span>
                             </p>
-                            <ul className='text-center' style={{marginTop: "50px", display: "flex", justifyContent: "center", gap: "20px", flexDirection: "column", fontSize: "18px", fontWeight: "500"}}>
-                                <li style={{textDecoration: "underline"}}><a download href="/files/Individual_Account_Opening_Form.pdf" style={{color: "#2e3192;"}}>&#128073; Download Individual Account Form</a></li>
-                                <li style={{textDecoration: "underline"}}><a download href="/files/Corporate_Account_Opening_Form.pdf" style={{color: "#2e3192;"}}>&#128073; Download Corporate Account Form</a></li>
-                            </ul>
+                        </div>
+                        <div className="account-open-grid">
+                            <Link href="/open-account/individual" className="account-open-card">
+                                <div className="account-open-card__body">
+                                    <span className="account-open-card__tag">Personal</span>
+                                    <h3 className="account-open-card__title">Open an Individual Account</h3>
+                                    <p className="account-open-card__text">
+                                        Submit your details online and get started with wealth solutions tailored to you.
+                                    </p>
+                                </div>
+                                <span className="account-open-card__cta">Start Individual Application <i className="icon-chevron-right" /></span>
+                            </Link>
+                            <Link href="/open-account/corporate" className="account-open-card">
+                                <div className="account-open-card__body">
+                                    <span className="account-open-card__tag">Business</span>
+                                    <h3 className="account-open-card__title">Open a Corporate Account</h3>
+                                    <p className="account-open-card__text">
+                                        Provide company information to unlock professional portfolio management for your team.
+                                    </p>
+                                </div>
+                                <span className="account-open-card__cta">Start Corporate Application <i className="icon-chevron-right" /></span>
+                            </Link>
+                        </div>
+                        <div className="account-open-downloads">
+                            <p className="account-open-downloads__title">Prefer the paper forms?</p>
+                            <div className="account-open-downloads__links">
+                                <a download href="/files/Individual_Account_Opening_Form.pdf">Download Individual Account Form</a>
+                                <a download href="/files/Corporate_Account_Opening_Form.pdf">Download Corporate Account Form</a>
+                            </div>
                         </div>
                     </div>
                 </div>
