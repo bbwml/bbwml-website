@@ -240,8 +240,11 @@ fieldset {
     border-radius: 10px;
     border: 1px solid var(--Border-2);
     background-color: var(--Main-gray-3);
+    color: #000000;
     transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
+
+.cf-select option { color: #000000; }
 
 .cf-input:focus,
 .cf-select:focus {
@@ -254,6 +257,13 @@ fieldset {
 .cf-select--multi {
     min-height: 140px;
     padding: 12px 14px;
+}
+
+// Ensure inputs in our styled forms render black text (overrides generic .style-2 gray)
+form.style-2.cf-form input,
+form.style-2.cf-form select,
+form.style-2.cf-form textarea {
+    color: #000000;
 }
 
 .cf-radio-group {
