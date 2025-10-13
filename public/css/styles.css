@@ -3757,6 +3757,13 @@ form.style-2 input::placeholder {
   color: #a3aaab;
 }
 
+/* Override gray text in our custom cf-form variant */
+form.style-2.cf-form input,
+form.style-2.cf-form select,
+form.style-2.cf-form textarea {
+  color: #000000;
+}
+
 form.style-3 input {
   border: 1px solid var(--Border-2);
   padding: 13px 19px 10px;
@@ -3976,6 +3983,7 @@ fieldset {
   border-radius: 10px;
   border: 1px solid var(--Border-2);
   background-color: var(--Main-gray-3);
+  color: #000000;
   -webkit-transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
   -moz-transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
   transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
@@ -3994,6 +4002,8 @@ fieldset {
   min-height: 140px;
   padding: 12px 14px;
 }
+
+.cf-select option { color: #000000; }
 
 .cf-radio-group {
   display: -webkit-box;
