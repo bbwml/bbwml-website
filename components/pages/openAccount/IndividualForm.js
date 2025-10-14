@@ -14,6 +14,9 @@ import { FormProvider, useFormCtx } from "./form/FormProvider";
 import ActionsBar from "./form/ActionsBar";
 import { generateNeatPdf } from "./lib/pdf/generateNeatPdf";
 
+const CONTACT_EMAIL =
+  process.env.NEXT_PUBLIC_APPLICATIONS_EMAIL || "info@bbwml.com";
+
 const steps = [
   "Personal & ID",
   "Employment",
@@ -57,7 +60,11 @@ function InnerForm() {
       if (!emailRes.ok) {
         throw new Error(emailJson?.error || "Failed to email PDF");
       }
-      showToast("Application submitted! PDF emailed to samuelsoaga@gmail.com.", "success", 4000);
+      showToast(
+        `Application submitted! PDF emailed to ${CONTACT_EMAIL}`,
+        "success",
+        4000
+      );
     } catch (err) {
       console.error(err);
       showToast(err?.message || "Something went wrong", "error", 5000);
