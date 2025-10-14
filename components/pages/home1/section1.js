@@ -21,7 +21,7 @@ export default function Section1() {
             paddingLeft: "30px",
           }} 
 		  >
-                  At B & B Wealth, we design solutions that align with your financial goals and risk appetite
+                  At B&B Wealth, we design solutions that align with your financial goals and risk appetite
                 </p>
         <div className="tf-container w-1780">
           <div className="row">
