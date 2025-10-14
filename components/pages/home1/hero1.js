@@ -16,10 +16,10 @@ export default function Hero1() {
             <div className="row">
               <div className="col-lg-6">
                 <div className="content">
-                  <p className="s-sub-title text-dark ">
+                  {/* <p className="s-sub-title text-dark ">
                     <i className="icon-angles-right moveLeftToRight" />
                     B&B Wealth Management
-                  </p>
+                  </p> */}
                   <p className="text-dark mb-50 text-fs-70 hero-main-title">
                     Trusted Wealth Management, <br></br>Trading & Advisory
                     Company

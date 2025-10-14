@@ -13,6 +13,9 @@ import StepInvestmentRisk from "./corporate/StepInvestmentRisk";
 import StepDocuments from "./corporate/StepDocuments";
 import StepBoardResolution from "./corporate/StepBoardResolution";
 
+const CONTACT_EMAIL =
+  process.env.NEXT_PUBLIC_APPLICATIONS_EMAIL || "info@bbwml.com";
+
 const steps = [
   "Company",
   "Bank",
@@ -419,7 +422,11 @@ function InnerCorporateForm() {
       if (!emailRes.ok) {
         throw new Error(emailJson?.error || "Failed to email PDF");
       }
-      showToast("Corporate application PDF emailed to samuelsoaga@gmail.com.", "success", 4000);
+      showToast(
+        `Corporate application PDF emailed to ${CONTACT_EMAIL}`,
+        "success",
+        4000
+      );
     } catch (err) {
       console.error(err);
       showToast(err?.message || "PDF creation failed.", "error", 5000);
