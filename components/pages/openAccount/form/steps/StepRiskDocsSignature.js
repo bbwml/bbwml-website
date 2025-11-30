@@ -6,7 +6,7 @@ import SignaturePad from "../SignaturePad";
 import UploadField from "../UploadField";
 
 export default function StepRiskDocsSignature() {
-  const { values, updateFromEvent } = useFormCtx();
+  const { values, update, updateFromEvent } = useFormCtx();
 
   return (
     <section className="cf-section">

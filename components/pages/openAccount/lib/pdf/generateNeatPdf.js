@@ -64,6 +64,22 @@ async function toJpegDataUrl(fileOrDataUrl, maxW = 1200, quality = 0.92) {
   }
 }
 
+async function fetchDataUrl(url, fallbackMime = "image/jpeg") {
+  try {
+    const res = await fetch(url);
+    const blob = await res.blob();
+    const mime = blob.type || fallbackMime;
+    return await new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = reject;
+      reader.readAsDataURL(blob);
+    });
+  } catch {
+    return "";
+  }
+}
+
 export async function generateNeatPdf(vals) {
   const doc = new jsPDF({ unit: "pt", format: "a4", compress: true });
   const page = { w: doc.internal.pageSize.getWidth(), h: doc.internal.pageSize.getHeight() };
@@ -249,6 +265,19 @@ export async function generateNeatPdf(vals) {
   section("6. Risk & Documents");
   lineWrap("Risk Sensitivity", vals.risk.sensitivity);
 
+  // Minor / Guardian details (if applicable)
+  if (vals.minors?.applicable) {
+    ensureSpace(160);
+    setFont(11, true); doc.text("Acting for a Minor", m, y); y += 14;
+    setFont(10, false);
+    pair([{ label: "Guardian Surname", value: vals.minors.surname }, { label: "Guardian First Name", value: vals.minors.firstName }]);
+    pair([{ label: "Other Name", value: vals.minors.otherName }, { label: "Relationship", value: vals.minors.relationship }]);
+    pair([{ label: "Date of Birth", value: vals.minors.dob }, { label: "BVN", value: vals.minors.bvn }]);
+    pair([{ label: "ID Type", value: vals.minors.idType }, { label: "", value: "" }]);
+    lineWrap("Residential Address", vals.minors.residentialAddress);
+    y += 6;
+  }
+
   // Clickable document links if URLs are present
   const docs = vals.documents || {};
   const needEquities = vals.investment?.modeOfInvestment === "Equities";
@@ -261,9 +290,19 @@ export async function generateNeatPdf(vals) {
   // Signature box
   ensureSpace(120);
   setFont(11, true); doc.text("Signature", m, y); y += 16; setFont(10, false);
-  let sigDataUrl = vals.signature?.imageDataUrl || "";
-  if (!sigDataUrl && vals.signature?.uploadedSignature) {
-    sigDataUrl = await toJpegDataUrl(vals.signature.uploadedSignature, 1000, 0.9);
+  // Prefer uploaded signature over drawn canvas for PDF embedding
+  let sigDataUrl = "";
+  if (vals.signature?.uploadedSignature) {
+    try { sigDataUrl = await toJpegDataUrl(vals.signature.uploadedSignature, 1000, 0.9); } catch {}
+  }
+  if (!sigDataUrl && vals.signature?.uploadedSignatureUrl) {
+    try { sigDataUrl = await toJpegDataUrl(vals.signature.uploadedSignatureUrl, 1000, 0.9); } catch {}
+    if (!sigDataUrl) {
+      sigDataUrl = await fetchDataUrl(vals.signature.uploadedSignatureUrl);
+    }
+  }
+  if (!sigDataUrl && vals.signature?.imageDataUrl) {
+    sigDataUrl = vals.signature.imageDataUrl;
   }
   doc.rect(m, y, 250, 70);
   if (sigDataUrl) {
@@ -276,11 +315,6 @@ export async function generateNeatPdf(vals) {
   doc.text(`Name: ${vals.signature?.nameSurnameFirstOther || ""}`, m + 270, y + 18);
   doc.text(`Date: ${vals.signature?.date || ""}`, m + 270, y + 36);
   y += 86;
-
-  // Link to uploaded signature file (if user uploaded instead of drawing)
-  if (vals.signature?.uploadedSignatureUrl) {
-    linkRow("Uploaded Signature", vals.signature.uploadedSignatureUrl);
-  }
 
   ensureSpace(40);
   doc.setDrawColor(220); doc.line(m, y, page.w - m, y); y += 10;
